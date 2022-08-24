@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: d629dfa96f54e1449b588e307365adea
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Metal_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 725f8df1b8794134cbbfb4cad820372d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Metal_Emission.1001
+    second: {fileID: 2800000, guid: 5200e9a6bed46b54d9317e4903c8d587, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Metal_Normal.1001
+    second: {fileID: 2800000, guid: 84957ac275c5a0641856030a9a774dcd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Metal_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: d5c5f05451a0212498080932a3830416, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Plastico_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: be8b8428ea6cc4a4cb80b85451ffdeb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Plastico_Emission.1001
+    second: {fileID: 2800000, guid: 65614ab1627a5984095d2d0a1b998f81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Plastico_Normal.1001
+    second: {fileID: 2800000, guid: 53de22ce13beb6f44aeb289dcc70b93a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Plastico_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 2a9d638566c1cad4b9aaffdd583b22f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Teclado_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 6699041d6989be043b8fa2c98a304ced, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Teclado_Emission.1001
+    second: {fileID: 2800000, guid: d58c2310373a71749a0c64e497ffb1b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Teclado_Normal.1001
+    second: {fileID: 2800000, guid: 130994ec5b2f2094ba78abddb99af693, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Teclado_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: e5c36b0d9f2e9da4290bf0daaf9d9e3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Vidrio_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 37bb2ffa565549f4693c335e4ea292fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Vidrio_Emission.1001
+    second: {fileID: 2800000, guid: 28b2cebaff376f547939698181841c71, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Vidrio_Normal.1001
+    second: {fileID: 2800000, guid: 7d9a54e0e2258044fb56213a69439a79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: terminalhospital2_UV_Vidrio_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 77cd66fde4b897a43a4e64b1aa1d3326, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
