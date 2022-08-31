@@ -25,7 +25,6 @@ public class IA_robot : MonoBehaviour
         {
             Vector3 PlayerPos = new Vector3(player.position.x, player.position.y, player.position.z);
             transform.LookAt(PlayerPos);
-
             transform.position = Vector3.MoveTowards(transform.position, PlayerPos, speed * Time.deltaTime);
         }
     }
