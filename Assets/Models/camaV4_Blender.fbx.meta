@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: e3c3c4300b7fc344491f4325fcaf9463
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Cama1
+    second: {fileID: 2100000, guid: 4fb13d8b27f4d3142985e42ecaf1162a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Metal1
+    second: {fileID: 2100000, guid: 9ff3193758919064d830d003f7de1ccf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Vidrio1
+    second: {fileID: 2100000, guid: cec00d5e5f8943045b1c5d42a5e82ef2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: bd36ed4f0ae1be740998efb26534d5d1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Cama_2_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: cbf88f2aff8f0aa46ac9a33c7cedfd11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Cama_2_Emission.1001
+    second: {fileID: 2800000, guid: 85dca7473dcb95a4db51d23960bec5b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Cama_2_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: a6125343f0111634b996137e4ee9d192, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Cama_2_Normal.1001
+    second: {fileID: 2800000, guid: d81ac0fb83d05c245aa6d6f9fbe58aae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Metal_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: ffefe8a77b4426f41ba1ced377825f1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Metal_Emission.1001
+    second: {fileID: 2800000, guid: 10ad6376ca8bf3a40837f95dc9bb94ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Metal_Normal.1001
+    second: {fileID: 2800000, guid: 6e4b97b736abdac47addfde74d7967f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Panel_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 25e8d962cd4a2444b9c08fe2d8ba1423, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Panel_Emission.1001
+    second: {fileID: 2800000, guid: 238d20c548eaff24da9a76ffa7363d73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Panel_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 9a011f4d801a9c04db3393a1a83396ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Panel_Normal.1001
+    second: {fileID: 2800000, guid: ddbc94856f63fb546b6382befb0dc1f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Vidrio_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: bc6809d160b75ce4293ec26769e9bad6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Vidrio_Emission.1001
+    second: {fileID: 2800000, guid: 69b156b6d4f62b442a73f22e94eeb047, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Vidrio_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 080beb9ad7d95954a8459955ad6fbf06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cama_Hospital_V2_UV_Vidrio_Normal.1001
+    second: {fileID: 2800000, guid: 5d6423e5f8bffec45b06d0cdf505cb06, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
