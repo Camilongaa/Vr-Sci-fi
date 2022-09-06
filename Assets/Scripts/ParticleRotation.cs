@@ -15,7 +15,7 @@ public class ParticleRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        s
+        
         transform.Rotate(speed * Time.deltaTime);
     }
 }
