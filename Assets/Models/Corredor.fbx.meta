@@ -7,43 +7,58 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Corredor
+    second: {fileID: 2100000, guid: 10041559310b3ba4ea45e23f161ce1e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default OBJ
+    second: {fileID: 2100000, guid: fcf28459043813843ba03b64f2194ff3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 748d3bb3c78b3f0409f54d8abda777f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Luces
     second: {fileID: 2100000, guid: fc45e63fcbb0b0c4dbc08a77aa4dff9f, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: corredor 2_Puerta_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: 811dc3e7fcca88d49a18d0aa8f639046, type: 3}
+    second: {fileID: 2800000, guid: 31e8cd101c10cb64fa7dee45c2a61edd, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: corredor 2_Puerta_Emission.1001
-    second: {fileID: 2800000, guid: c2ebf036f52a0ba45a2f43b3fe1caf49, type: 3}
+    second: {fileID: 2800000, guid: a5669c38751f2784a830cdd78eff9240, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: corredor 2_Puerta_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: 0b057213673fe344999e978fda23f43c, type: 3}
+    second: {fileID: 2800000, guid: 1a315c2684fae5545b006f6e2035c03a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: corredor 2_Puerta_Normal.1001
-    second: {fileID: 2800000, guid: e127f809b10c83d4f93b5ad48bb72836, type: 3}
+    second: {fileID: 2800000, guid: 54140299d81707b4a8cccc5eeffc5b80, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: corredor 2_lambert2_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: 6dc3678d6366c224a88eed221ed1bef8, type: 3}
+    second: {fileID: 2800000, guid: 479bc11ba27d6b240ba6fbf11486608a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: corredor 2_lambert2_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: c7190daafc58a1a4ead15558a8a247df, type: 3}
+    second: {fileID: 2800000, guid: a19ab06aa963df1498340a14f99e2707, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: corredor 2_lambert2_Normal.1001
-    second: {fileID: 2800000, guid: e8eb8041db855b546a55b2da331027d5, type: 3}
+    second: {fileID: 2800000, guid: 7658f986a5505cb4589a3a53e5a243bd, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
