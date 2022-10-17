@@ -5,6 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealt : MonoBehaviour
 {
+
+
+    private void OnEnable()
+    {
+        Timer.Alterminartiempo += Death;
+    }
+
+    private void OnDisable()
+    {
+        Timer.Alterminartiempo -= Death;
+    }
     // Start is called before the first frame update
     void Start()
     {

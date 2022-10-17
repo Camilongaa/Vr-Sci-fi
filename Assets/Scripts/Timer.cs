@@ -10,15 +10,18 @@ public class Timer : MonoBehaviour
 
     [Tooltip("Tiempo inicial")]
     public int InitialTime;
-    [Range(-10 , 10)]
+    [Range(-10, 10)]
     public float TimeScale = 1;
     private Text mytext;
     private float FrameTimeWithTimeScale = 0f;
     private float timeInseconds;
     private float Scaletimepaused, InitialTimeScale;
     private bool isPaused = false;
+    private bool timeIsUp = false;
 
-
+    public delegate void Finishtime();
+    
+    public static event Finishtime Alterminartiempo;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,18 +37,31 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        FrameTimeWithTimeScale = Time.deltaTime * TimeScale;
+        if (!isPaused)
+        {
+            FrameTimeWithTimeScale = Time.deltaTime * TimeScale;
 
-        timeInseconds += FrameTimeWithTimeScale;
-        ActualizarTimer(timeInseconds);
+            timeInseconds += FrameTimeWithTimeScale;
+            ActualizarTimer(timeInseconds);
+        }
 
 
     }
-    public void ActualizarTimer( float timeInseconds)
+    public void ActualizarTimer(float timeInseconds)
     {
         int minute = 0;
         int seconds = 0;
-        string  ClockText;
+        string ClockText;
+
+        if (timeInseconds <= 0 && !timeIsUp) {
+
+            if (Alterminartiempo != null)
+            {
+                Alterminartiempo();
+            }
+
+            timeIsUp = true;
+        }
 
         if (timeInseconds < 0) timeInseconds = 0;
 
@@ -57,4 +73,39 @@ public class Timer : MonoBehaviour
 
 
     }
+
+
+    public void pause()
+    {
+        if (!isPaused)
+        {
+            isPaused = true;
+            Scaletimepaused = TimeScale;
+            TimeScale = 0;
+            
+
+        }
+
+    }
+
+    public void continuee (){
+        if (isPaused)
+        {
+            isPaused = false;
+            TimeScale = Scaletimepaused;
+        }
+
+ }
+
+    public void restart()
+    {
+        isPaused = false;
+        TimeScale = InitialTimeScale;
+        timeInseconds = InitialTimeScale;
+        ActualizarTimer(timeInseconds);
+        timeIsUp = false;
+
+
+    }
+
 }
