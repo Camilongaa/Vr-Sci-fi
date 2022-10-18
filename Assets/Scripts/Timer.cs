@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    public PlayerHealt player;
+    private PlayerHealt player;
 
 
     [Tooltip("Tiempo inicial")]
@@ -19,12 +19,41 @@ public class Timer : MonoBehaviour
     private bool isPaused = false;
     private bool timeIsUp = false;
 
-    public delegate void Finishtime();
+ 
+    public AudioClip SecondsSound;
+    private int secondspreviousframe = -1;
+    private AudioSource myAudioSource;
     
+
+    public delegate void Finishtime();
     public static event Finishtime Alterminartiempo;
+
+
+    public delegate void ChangingSeconds();
+    public static event ChangingSeconds atChangingSeconds;
+
+    private void OnEnable()
+    {
+        Timer.atChangingSeconds += Cambiarsegundos;
+    }
+    private void OnDisable()
+    {
+        Timer.atChangingSeconds -= Cambiarsegundos;
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
+        if (SecondsSound)
+        {
+            myAudioSource = this.gameObject.AddComponent<AudioSource>();
+            myAudioSource.clip = SecondsSound;
+            myAudioSource.playOnAwake = false;
+
+        }
+
+
         InitialTimeScale = TimeScale;
 
         mytext = GetComponent<Text>();
@@ -49,6 +78,9 @@ public class Timer : MonoBehaviour
     }
     public void ActualizarTimer(float timeInseconds)
     {
+
+
+
         int minute = 0;
         int seconds = 0;
         string ClockText;
@@ -70,6 +102,17 @@ public class Timer : MonoBehaviour
 
         ClockText = minute.ToString("00") + ":" + seconds.ToString("00");
         mytext.text = ClockText;
+
+        if (secondspreviousframe > -1)
+        {
+            if (seconds != secondspreviousframe)
+            {
+
+                atChangingSeconds();
+            }
+            secondspreviousframe = seconds;
+
+        }
 
 
     }
@@ -106,6 +149,16 @@ public class Timer : MonoBehaviour
         timeIsUp = false;
 
 
+    }
+
+
+    void Cambiarsegundos()
+    {
+
+        if (SecondsSound)
+        {
+            myAudioSource.Play();
+        }
     }
 
 }

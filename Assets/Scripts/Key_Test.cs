@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Key_Test : MonoBehaviour
 {
-    public DoorScript doorToOpen;
+    public DoorScriptV2 doorToOpen;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +14,12 @@ public class Key_Test : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.gameObject.name.Equals  ("Test_tarjetas"))
         {
             doorToOpen.isUnlocked = true;
 
         }
 
-        Destroy(gameObject);
+       
     }
 }

@@ -5,35 +5,45 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puerta
+    second: {fileID: 2100000, guid: 4ab7f8d8196e7fb43866370238bb1d81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marco1
+    second: {fileID: 2100000, guid: 14bbdc7d4439bb9409f33cbf90131dbe, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta_SalamedicaV3_Puerta_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: d5fdb0e2fcf16684a8d4e88bb1efca20, type: 3}
+    second: {fileID: 2800000, guid: 93f3bc068a1b106408b304b860bf6b40, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta_SalamedicaV3_Puerta_Emission.1001
-    second: {fileID: 2800000, guid: 90e40f62aaa6a384abaee6081892e61e, type: 3}
+    second: {fileID: 2800000, guid: ef162634e0555994ea59589d0d53aefd, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta_SalamedicaV3_Puerta_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: f6ca22971904f5f44a2c423e058e2ecd, type: 3}
+    second: {fileID: 2800000, guid: 77a248e92fa7a724ca7d50e172e301ac, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta_SalamedicaV3_marco1_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: 6910957fe387142469d2ca19be3f7e5a, type: 3}
+    second: {fileID: 2800000, guid: 81ed1592b5ae91d42921590b163fd62e, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta_SalamedicaV3_marco1_Emission.1001
-    second: {fileID: 2800000, guid: 831c96af1520b4f48a25ff173317f56a, type: 3}
+    second: {fileID: 2800000, guid: 549fac17d7ed6964db9cdf8c7d49ca37, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta_SalamedicaV3_marco1_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: 04b1cf2bf5a315f4eb0a3221102e42d7, type: 3}
+    second: {fileID: 2800000, guid: 5640a43f17ba5134fbb61e4e21b6e649, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
