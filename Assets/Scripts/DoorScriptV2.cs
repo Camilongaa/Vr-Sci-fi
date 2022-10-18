@@ -9,7 +9,6 @@ public class DoorScriptV2 : MonoBehaviour
 
 {
     public bool isUnlocked = false;
-    AudioSource audioData;
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +21,8 @@ public class DoorScriptV2 : MonoBehaviour
         if (isUnlocked == true)
         {
             GetComponent<Animator>().SetTrigger("Open");
-            audioData = GetComponent<AudioSource>();
-            audioData.Play(0);
+            
+            
 
         }
 
