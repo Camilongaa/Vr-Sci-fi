@@ -1,39 +1,9 @@
 fileFormatVersion: 2
-guid: 85da45448f22eb14ca2615eac27fc144
+guid: 6fb11bfd603a19f40a827bbb74f03d47
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cuerpo
-    second: {fileID: 2100000, guid: 9afca0ae9bd0f2543972854667d9e460, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Pantalla
-    second: {fileID: 2100000, guid: 361b9f31a2725d8409e38600a64c9db9, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Terminal_nucleo_Cuerpo_AlbedoTransparency
-    second: {fileID: 2800000, guid: 458b7cf2eac7efe41ab25de95e0be87b, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Terminal_nucleo_Cuerpo_SpecularSmoothness
-    second: {fileID: 2800000, guid: be3f4a21eb4a2e44c9a7b9e53e4d6aba, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Terminal_nucleo_Pantalla_AlbedoTransparency
-    second: {fileID: 2800000, guid: 86311b20911cb5740bae3830a5fd4915, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Terminal_nucleo_Pantalla_SpecularSmoothness
-    second: {fileID: 2800000, guid: 19f84e743a737aa43bb0474bd38706b5, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
