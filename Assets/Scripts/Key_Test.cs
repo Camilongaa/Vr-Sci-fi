@@ -7,7 +7,7 @@ public class Key_Test : MonoBehaviour
 {
     public AudioSource audioData;
 
-    public DoorScriptV2 doorToOpen;
+    public Sala_Nuclear_Door doorToOpen;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +17,11 @@ public class Key_Test : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name.Equals  ("Test_tarjetas"))
+        if (other.gameObject.name.Equals  ("Llave_Sala_medica"))
         {
             doorToOpen.isUnlocked = true;
             audioData.Play(0);
+           
 
 
 
