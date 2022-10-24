@@ -18,37 +18,37 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Caja_A_Caja1_BaseMap
-    second: {fileID: 2800000, guid: e2613f258adf80f42a9302416b604dac, type: 3}
+    second: {fileID: 2800000, guid: cd255f2122a898e49ac67b3eb356925f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Caja_A_Caja1_Emissive
-    second: {fileID: 2800000, guid: fd0e524dab6f7d04cb3bd68de7ecbf24, type: 3}
+    second: {fileID: 2800000, guid: f42c0da8e7da506458c91c27c71eed5c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Caja_A_Caja1_Normal
-    second: {fileID: 2800000, guid: 9309502784a3d284ab19b3eb0e117f76, type: 3}
+    second: {fileID: 2800000, guid: 1caea21f78c562441a26bab98ea2bcba, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Caja_A_Caja1_Specular
-    second: {fileID: 2800000, guid: bfa60f1d2a8c2b64981c6b42ee550023, type: 3}
+    second: {fileID: 2800000, guid: afe406de5f94aba41b4a70c6dbb56a12, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Caja_A_agarres_BaseMap
-    second: {fileID: 2800000, guid: 6bace1f8d69cf5d4bba00f563acb6963, type: 3}
+    second: {fileID: 2800000, guid: 5bc3ac990bf6f024e850ef1f20a8d225, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Caja_A_agarres_Normal
-    second: {fileID: 2800000, guid: e3b20b42977ec074f99d1b133e39ddda, type: 3}
+    second: {fileID: 2800000, guid: 18f1b1b3e50c71e4585b78b409055d83, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Caja_A_agarres_Specular
-    second: {fileID: 2800000, guid: 0dc95268320f0e54eb4c6aaefdd0a6cc, type: 3}
+    second: {fileID: 2800000, guid: cdb4f4ec65523c646a6a657fb4e23f0a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
