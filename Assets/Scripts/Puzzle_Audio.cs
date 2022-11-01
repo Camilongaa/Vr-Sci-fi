@@ -4,54 +4,63 @@ using UnityEngine;
 
 public class Puzzle_Audio : MonoBehaviour
 {
+    [Header("Audios")]
+    public AudioSource Explicacion;
+    public AudioSource Aullido;
 
-    public bool isActive = false;
+    [Header("Componentes")]
+    
+    bool IsActive;
+    public Transform Object;
     public Transform EnabledPosition;
-    public Transform PuzzleScreen;
     public Transform DisabledPosition;
-    public float speed = 1f;
-    Vector3 targetPosition;
+    public float speed;
+    Vector3 Targerposition;
     float time;
-    // Start is called before the first frame update
-    //
-    void Start()
-    {
-        targetPosition = DisabledPosition.position;
-        
-    }
+
 
     private void OnTriggerEnter(Collider other)
-
     {
         if (other.tag == "Player")
-        {
-            targetPosition = EnabledPosition.position;
+            {
+            Targerposition = EnabledPosition.position;
             time = 0;
-        }
+            Explicacion.Play();
+            StartCoroutine("answer1");
+            
 
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
         {
-            isActive = true;
-            targetPosition = DisabledPosition.position;
+            Targerposition = DisabledPosition.position;
             time = 0;
-
-            Debug.Log("Activado");
         }
     }
-   
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if (isActive && PuzzleScreen.position != targetPosition)
+        if (Object.position != Targerposition)
         {
-            PuzzleScreen.transform.position = Vector3.Lerp(PuzzleScreen.transform.position, targetPosition, time);
+            Object.transform.position = Vector3.Lerp(Object.transform.position, Targerposition, time);
             time += Time.deltaTime * speed;
+
         }
+    }
+
+    private void Start()
+    {
+        Targerposition = DisabledPosition.position;
+    }
+
+    IEnumerator answer1()
+    {
+        yield return new WaitForSeconds(43);
+        Aullido.Play();
+
 
     }
 }
