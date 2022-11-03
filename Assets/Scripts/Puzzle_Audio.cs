@@ -4,18 +4,28 @@ using UnityEngine;
 
 public class Puzzle_Audio : MonoBehaviour
 {
+[Header("Interfaces")]
+    public GameObject Firts_Level;
+    public GameObject Second_Level;
+
     [Header("Audios")]
     public AudioSource Explicacion;
     public AudioSource Aullido;
+    public AudioSource Correct_Answer;
+    public AudioSource Wrong_Answer;
+
+
 
     [Header("Componentes")]
     
-    bool IsActive;
     public Transform Object;
     public Transform EnabledPosition;
     public Transform DisabledPosition;
     public float speed;
     Vector3 Targerposition;
+
+    
+
     float time;
 
 
@@ -27,6 +37,8 @@ public class Puzzle_Audio : MonoBehaviour
             time = 0;
             Explicacion.Play();
             StartCoroutine("answer1");
+
+
             
 
         }
@@ -54,13 +66,48 @@ public class Puzzle_Audio : MonoBehaviour
     private void Start()
     {
         Targerposition = DisabledPosition.position;
+        Firts_Level.SetActive(false); 
+        Second_Level.SetActive(false);
+
     }
 
     IEnumerator answer1()
     {
         yield return new WaitForSeconds(43);
+
+        Firts_Level.SetActive(true);
         Aullido.Play();
 
 
     }
+
+    public void answer2()
+
+
+    {
+        Correct_Answer.Play();
+        Firts_Level.SetActive(false);
+        Second_Level.SetActive(true);
+
+
+
+
+
+
+    }
+
+
+    public void wrongAnswer()
+    {
+        Wrong_Answer.Play();
+
+    }
+
+   
+
+
+
+    
+    
+
 }
