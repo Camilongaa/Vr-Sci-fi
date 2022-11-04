@@ -7,17 +7,19 @@ public class Puzzle_Audio : MonoBehaviour
 [Header("Interfaces")]
     public GameObject Firts_Level;
     public GameObject Second_Level;
+    public GameObject third_Level;
 
     [Header("Audios")]
     public AudioSource Explicacion;
     public AudioSource Aullido;
+    public AudioSource Cascada;
     public AudioSource Correct_Answer;
     public AudioSource Wrong_Answer;
 
 
 
     [Header("Componentes")]
-    
+    public GameObject Tarjeta;
     public Transform Object;
     public Transform EnabledPosition;
     public Transform DisabledPosition;
@@ -35,7 +37,7 @@ public class Puzzle_Audio : MonoBehaviour
             {
             Targerposition = EnabledPosition.position;
             time = 0;
-            Explicacion.Play();
+           Explicacion.Play();
             StartCoroutine("answer1");
 
 
@@ -68,12 +70,13 @@ public class Puzzle_Audio : MonoBehaviour
         Targerposition = DisabledPosition.position;
         Firts_Level.SetActive(false); 
         Second_Level.SetActive(false);
+        third_Level.SetActive(false);
 
     }
 
     IEnumerator answer1()
     {
-        yield return new WaitForSeconds(43);
+        yield return new WaitForSeconds(16);
 
         Firts_Level.SetActive(true);
         Aullido.Play();
@@ -85,13 +88,24 @@ public class Puzzle_Audio : MonoBehaviour
 
 
     {
-        Correct_Answer.Play();
-        Firts_Level.SetActive(false);
-        Second_Level.SetActive(true);
+       Correct_Answer.Play();
+       Firts_Level.SetActive(false);
+       Second_Level.SetActive(true);
+
+        StartCoroutine("Cascadatime");
 
 
 
 
+
+
+
+    }
+
+    public void answer3()
+    {
+        Second_Level.SetActive(false);
+        third_Level.SetActive(true);
 
 
     }
@@ -103,11 +117,25 @@ public class Puzzle_Audio : MonoBehaviour
 
     }
 
-   
+    public void atWin()
+    {
+        Tarjeta.SetActive(true);
+        third_Level.SetActive(false);
+
+
+    }
+
+    IEnumerator Cascadatime()
+    {
+        yield return new WaitForSeconds(3);
+
+
+        Cascada.Play();
+
+
+    }
 
 
 
-    
-    
 
 }
