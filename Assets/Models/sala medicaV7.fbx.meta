@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 833d348ccb3f89847ac59a49847cc9b4
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luces
+    second: {fileID: 2100000, guid: 3133ad84160ed004598ba8d1ba8cda28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco_ventana
+    second: {fileID: 2100000, guid: 0f3809551acce024a8178bd7f05cd8ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared2
+    second: {fileID: 2100000, guid: d03c83278f81c054ca685821a2456d44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes
+    second: {fileID: 2100000, guid: e31f750ab38adc644934b2d37d118ea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pasacable
+    second: {fileID: 2100000, guid: ef0756eff26c8dd409e9dbf1d64fc3a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suelo
+    second: {fileID: 2100000, guid: e6b15aa3ea5cf9643ab3cb40e330d160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: 17deb45ec1ae8c649af3665c36ea3dde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventila
+    second: {fileID: 2100000, guid: 4d8abc5b35014de44a044b30647bee0e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Luces_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: d800a4a81e961dc419e41238958d8b8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Luces_Emission.1001
+    second: {fileID: 2800000, guid: 950564e0ccaf789479023800d4fb45e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Luces_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 28b0c4210ab422f4696ccd259e841baa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Luces_Normal.1001
+    second: {fileID: 2800000, guid: 0fae708b3b42117499cfb5c8b8775f47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Marco_ventana_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 65ee7efec7a4caf43bd3b80d425a0ee3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Marco_ventana_Emission.1001
+    second: {fileID: 2800000, guid: 07764aca81da93c4aa778e069bd5c169, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Marco_ventana_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: ee5a33481cf44b344a00846ba096d3a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Marco_ventana_Normal.1001
+    second: {fileID: 2800000, guid: ee66f3e2673c9254bbf53ffeca4be137, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Paredes_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: fb2fcd6628243544e86c891577ef666f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Paredes_AlbedoTransparency.1002
+    second: {fileID: 2800000, guid: 1de9b7f2467bfdb4b8919c62251d55b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Paredes_Emission.1001
+    second: {fileID: 2800000, guid: 4ccf774ecbbf5564198ec9000c8e0418, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Paredes_Emission.1002
+    second: {fileID: 2800000, guid: ed2fdba417576d74e83f1cefd0d8051c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Paredes_Normal.1001
+    second: {fileID: 2800000, guid: 1b0d51db6ec24b1418baa07a6e060143, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Paredes_Normal.1002
+    second: {fileID: 2800000, guid: 7bc1eb553c814e94088099ef5b2dbba3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Paredes_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: b95acb7c9a556f54eb8bd99b7972a9a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Paredes_SpecularSmoothness.1002
+    second: {fileID: 2800000, guid: a77a2e45a74d64b42b348ad6e1dc2587, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Pasacable_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: d3c7606ff467e7d409435ca9d0f8d98d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Pasacable_Emission.1001
+    second: {fileID: 2800000, guid: 0b2bbbf6a1fab5044b01647e0092d1eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Pasacable_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: e48168d9fb69ce34fa46aa654c4766eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Pasacable_Normal.1001
+    second: {fileID: 2800000, guid: 37877f8cdbb75ee4b837419e4876249d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Suelo_AlbedoTransparency.1002
+    second: {fileID: 2800000, guid: 6ac165f250dc9ae4f93b9ab98ff703dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Suelo_Emission.1002
+    second: {fileID: 2800000, guid: 00a6b9b157469724094437297c5433a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Suelo_MetallicSmoothness.1002
+    second: {fileID: 2800000, guid: b46233185a13a464ab48539f9ab31c22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Suelo_Normal.1002
+    second: {fileID: 2800000, guid: 2717a902984868b48a4e5852d10710fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Techo_AlbedoTransparency.1002
+    second: {fileID: 2800000, guid: bc836e4c34b81554dac94cf8a9a7402d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Techo_Emission.1002
+    second: {fileID: 2800000, guid: 9799039f9db7000409d6bde017fbe103, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Techo_Normal.1002
+    second: {fileID: 2800000, guid: 19f5bf119f469ad4b83b1a2b422f7cdb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Techo_SpecularSmoothness.1002
+    second: {fileID: 2800000, guid: bffb3c9fa300fe54aa71c2f95d4421c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Ventila_AlbedoTransparency.1002
+    second: {fileID: 2800000, guid: b2a4f1c91df265944aaa0c0f60d0dead, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Ventila_Emission.1002
+    second: {fileID: 2800000, guid: 77ea09a5b4714474097574c9813f49f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Ventila_MetallicSmoothness.1002
+    second: {fileID: 2800000, guid: 147b137d1ce61b74d83c9d3b6286c3b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Medica_V5_Uv_Ventila_Normal.1002
+    second: {fileID: 2800000, guid: d382b4b1bda4a99499c017cd2fea8812, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
