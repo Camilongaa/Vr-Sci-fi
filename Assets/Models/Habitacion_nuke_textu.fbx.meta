@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 8b2ca5fdac2d4124da13192807f14476
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barras
+    second: {fileID: 2100000, guid: d53a3d1f7bfc3484b8f2e585591a5080, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco
+    second: {fileID: 2100000, guid: f1eee50ec816349498d5dc97d38c083e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes
+    second: {fileID: 2100000, guid: 2f167a10d818cfb48861fc3f746ffa89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: d59a1efe1c769274f907af03b00dddcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 42fcdb0ac30b7184081eecb3d5972f6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suelo
+    second: {fileID: 2100000, guid: 072e71c454fc7df4c80b1918c0a1e6d6, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Barras_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 598381c3b5ad5fe48bb4103ac9b06176, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Barras_Emission.1001
+    second: {fileID: 2800000, guid: 11a787eaf7f1a2743928f1a83d3fed09, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Barras_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: f5e254610b1a72e4f90aa81c12f0d360, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Marco_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: b431fe0de1ae14f40bd9f6db4ae42e52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Marco_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: e2cff05a0ed89644e92fd791644fbbe6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Paredes_AlbedoTransparency.1002
+    second: {fileID: 2800000, guid: f5020e3f2b8d7fd45954b3aff40a04ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Paredes_MetallicSmoothness.1002
+    second: {fileID: 2800000, guid: 620af01639738d948973e0b21b1c983c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Paredes_Normal.1002
+    second: {fileID: 2800000, guid: 50618e849c1237d40ae11dae20600e9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Techo_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 8047dc802ea4e8949afde8a983edd46b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Techo_Emission.1001
+    second: {fileID: 2800000, guid: 30daae0aef89a35408a611403ae5e8e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Techo_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 58e277f1124eeba49b529d37a19ec5c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_Techo_Normal.1001
+    second: {fileID: 2800000, guid: 17a8086a2f126c94da068d188a958d8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_lambert2_AlbedoTransparency.1002
+    second: {fileID: 2800000, guid: e706cc3ba9275ac4fa28f1f38a673656, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_lambert2_SpecularSmoothness.1002
+    second: {fileID: 2800000, guid: 9c149e1d828969e4a92194b9d510ad70, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_suelo_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: ab5b1832be616bf4fb52cf92733def34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_suelo_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: acabc2719ad67ad4a81017cff13287ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_2tiles_suelo_Normal.1001
+    second: {fileID: 2800000, guid: 508d332a4c0b93f40824b49e6171067a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 100
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
