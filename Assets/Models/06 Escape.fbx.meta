@@ -5,15 +5,25 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: tarjeta_cuerpo.001
-    second: {fileID: 2100000, guid: 78e85034990481943aef193e1983dab7, type: 2}
+      name: tarjeta_luz_BaseMap.1001
+    second: {fileID: 2800000, guid: 7b82e19d3e3101646abcd3d677029c05, type: 3}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: tarjeta_luz.001
-    second: {fileID: 2100000, guid: 5caa08599a2dc954c8366b2db310cf7d, type: 2}
+      name: tarjeta_luz_Emissive.1001
+    second: {fileID: 2800000, guid: a33839e19ce26b94d84a58bb7a82e953, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarjeta_tarjeta1_BaseMap.1001
+    second: {fileID: 2800000, guid: a337c8672384d434bbbe3f93bb306e00, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarjeta_tarjeta1_Emissive.1001
+    second: {fileID: 2800000, guid: cf506c8eda5d2e24580179fab9aea3a9, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

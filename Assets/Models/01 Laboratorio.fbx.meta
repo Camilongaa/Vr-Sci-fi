@@ -3,7 +3,37 @@ guid: a4175db4fb56c524d8bfd7b5e89e63e7
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarjeta_luz_BaseMap.1001
+    second: {fileID: 2800000, guid: c1c03faedd613c843b4ef1a736662f05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarjeta_luz_Emissive.1001
+    second: {fileID: 2800000, guid: e4a494673c6e29e43aa9d2bc8e5a173b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarjeta_luz_Normal.1001
+    second: {fileID: 2800000, guid: 56f07e68b1298444ca3d3d9928e1aca7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarjeta_tarjeta1_BaseMap.1001
+    second: {fileID: 2800000, guid: 44bed9553b562cc428d01ac459f74d61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarjeta_tarjeta1_Emissive.1001
+    second: {fileID: 2800000, guid: 38f934fd84bd04b4e97fe77a61f8b9d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tarjeta_tarjeta1_Normal.1001
+    second: {fileID: 2800000, guid: 665f80c4de05a894885e60bf282cd58e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

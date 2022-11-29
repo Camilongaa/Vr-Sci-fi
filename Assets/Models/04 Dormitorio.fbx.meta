@@ -7,38 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: tarjeta_tarjeta_cuerpo_BaseMap.1001
-    second: {fileID: 2800000, guid: 9e1a6e3db09892e499a85f822be4c5ff, type: 3}
+      name: tarjeta_luz_BaseMap.1001
+    second: {fileID: 2800000, guid: 606055d98d5466c4bb991e0d3cad6645, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: tarjeta_tarjeta_cuerpo_Normal.1001
-    second: {fileID: 2800000, guid: b8b40ddde7966b5469ea5eab374fba5d, type: 3}
+      name: tarjeta_luz_Emissive.1001
+    second: {fileID: 2800000, guid: 5a5e1536c9b4690418ef6dba55a11fdd, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: tarjeta_tarjeta_cuerpo_Specular.1001
-    second: {fileID: 2800000, guid: 11d8d35f8823b5b4b9aa994a4b14c69c, type: 3}
+      name: tarjeta_luz_Normal.1001
+    second: {fileID: 2800000, guid: a3c4baeb7af52bb479d9b788f23c7b93, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: tarjeta_tarjeta_luz_BaseMap.1001
-    second: {fileID: 2800000, guid: 7a6bdb6b23b54054bb892aa59cccf654, type: 3}
+      name: tarjeta_tarjeta1_BaseMap.1001
+    second: {fileID: 2800000, guid: 29d86778d9a06d741a966c8641d3cb43, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: tarjeta_tarjeta_luz_Emissive.1001
-    second: {fileID: 2800000, guid: a3b0909201f631c46a3aebbeef411e5f, type: 3}
+      name: tarjeta_tarjeta1_Emissive.1001
+    second: {fileID: 2800000, guid: 52f9f2652d090bc4490e7f1484683630, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: tarjeta_tarjeta_luz_Normal.1001
-    second: {fileID: 2800000, guid: f188d28b40850944ab85b8f7ed6d8f93, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: tarjeta_tarjeta_luz_Specular.1001
-    second: {fileID: 2800000, guid: 1557359da6bd15f45b2def4fd6839329, type: 3}
+      name: tarjeta_tarjeta1_Normal.1001
+    second: {fileID: 2800000, guid: 75972f5df56f36a4e97ca5d09392ff71, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

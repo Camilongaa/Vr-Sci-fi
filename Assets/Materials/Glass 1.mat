@@ -103,11 +103,11 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _Fresnel: 4.96
+    - _Fresnel: 3.47
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _IOR: 0.02
+    - _IOR: 1.18
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
