@@ -5,19 +5,25 @@ using UnityEngine;
 
 public class Puzzle_SalaMedica : MonoBehaviour
 {
-
+    float speed = 1;
     [Header("Audios")]
     public AudioSource CorrectAnswer;
     public AudioSource WrongAnswer;
+
+    public AudioSource CompuertaOpen;
+
 
     [Header("Niveles")]
 
     public GameObject Level_one;
     public GameObject Level_Two;
     public GameObject Level_Three;
+    public GameObject final_screen;
 
-    [Header("Tarjeta")]
+    [Header("Objetos")]
     public GameObject Tarjeta;
+    public GameObject Compuerta;
+    
 
     public void Start()
     {
@@ -50,7 +56,10 @@ public class Puzzle_SalaMedica : MonoBehaviour
     {
         CorrectAnswer.Play();
         Level_Two.SetActive(false);
-        Level_Three.SetActive(true);
+        Level_Three.SetActive(false);
+        final_screen.SetActive(true);
+
+        abrirCompuerta();
 
         Tarjeta.SetActive(true);
     }
@@ -58,6 +67,14 @@ public class Puzzle_SalaMedica : MonoBehaviour
     public void Wronganswer()
     {
         WrongAnswer.Play();
+    }
+
+    public void abrirCompuerta()
+    {
+        Compuerta.transform.Rotate(-90, 0, 0);
+        CompuertaOpen.Play();
+
+
     }
 
 }

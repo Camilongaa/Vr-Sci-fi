@@ -3,7 +3,27 @@ guid: e36abfae7fd1a894f8647c76dbb571b8
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesa_dor_geo
+    second: {fileID: 2100000, guid: 9b8a9d1bb4bcbb84d972dc0359b60395, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesa dor_Mesa_dor_geo_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: abc048536c22d2346875f3daadfeb368, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesa dor_Mesa_dor_geo_Normal.1001
+    second: {fileID: 2800000, guid: 062941f53e8f78946b212406e6d864d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesa dor_Mesa_dor_geo_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 21ffbf2a300dc1043a720335733219d8, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
