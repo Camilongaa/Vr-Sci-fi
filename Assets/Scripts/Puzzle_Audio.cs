@@ -122,6 +122,8 @@ public class Puzzle_Audio : MonoBehaviour
         Tarjeta.SetActive(true);
         third_Level.SetActive(false);
 
+        Destroy(this.gameObject);
+
 
     }
 

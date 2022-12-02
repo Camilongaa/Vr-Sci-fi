@@ -20,7 +20,11 @@ public class Puzzle_Dormitorios : MonoBehaviour
         transform.eulerAngles = new Vector3(0, 90, rotations[rand]);
 
 
-        if (Input.GetKeyDown("Select"))
+        Select = inputActions.FindActionMap("XRI RightHand").FindAction("Select");
+
+
+
+        if (Input.GetKeyDown("gripButton"))
         {
             // transform.Rotate(new Vector3(0, 0, 90));
 

@@ -3,7 +3,12 @@ guid: 65e3d6be91fe8cc4db9089a16cb13844
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libreria_dor_geo
+    second: {fileID: 2100000, guid: 070c8d49d02d10f4092055793d71d490, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
