@@ -24,7 +24,7 @@ public class Puzzle_Dormitorios : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown("gripButton"))
+        if (Input.GetKeyDown("Select"))
         {
             // transform.Rotate(new Vector3(0, 0, 90));
 
@@ -38,22 +38,6 @@ public class Puzzle_Dormitorios : MonoBehaviour
     }
 
 
-    private void Update()
-    {
-        if (Input.GetKeyDown("Select"))
-        {
-           // transform.Rotate(new Vector3(0, 0, 90));
-
-            if(transform.eulerAngles.z == CorrectPosition && isRotated == false)
-            {
-                isRotated = true;
-            }
-
-            else if(isRotated == true)
-            {
-                isRotated = false;
-            }
-        }
-    }
+    
 
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DAWProject" id="{e42e29d0-aaf9-45c5-9bfe-1b066013b7f3}">
+		<property name="assetPath">
+			<value>AudiosVR.rpp.link/</value>
+		</property>
+		<property name="dawProjectPath">
+			<value>C:/Users/elmeg/OneDrive/Documentos/REAPER Media/AudiosVR.rpp</value>
+		</property>
+		<property name="renderedAssetsPath">
+			<value>.</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0343b2c4-2800-48cb-a02b-4be32cdbcd1a}</destination>
+		</relationship>
+	</object>
+</objects>

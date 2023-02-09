@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 183a7e45dc4c43244b4c89e51d41a8b2
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cables
+    second: {fileID: 2100000, guid: bf71f0754c13125438fe3a903359fefe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Deco_pantalla
+    second: {fileID: 2100000, guid: 46451e9ef58e70c49953b56088e7b74f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco_pantalla
+    second: {fileID: 2100000, guid: 42aae7928c432994a81a425ce19512d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco_sub
+    second: {fileID: 2100000, guid: 320df50e935daeb4cb6b90e76e98af8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco_teclado
+    second: {fileID: 2100000, guid: c4d8d7540eba38b4981f0f318192983b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pantalla
+    second: {fileID: 2100000, guid: 717cb16e5466d5a419bfee3dae77b882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pantalla_sub
+    second: {fileID: 2100000, guid: 560300726591fbc4e84b12c4d657bf19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pantalla_teclado
+    second: {fileID: 2100000, guid: 0a0f3cd64287a4f4da77378df91631c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soporte_sub
+    second: {fileID: 2100000, guid: e946c2f0fecbae946aaa1f7e4ac2ff73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soporte_tecla
+    second: {fileID: 2100000, guid: 4a81a909552d6bc4f8b77a633c554e78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soportes
+    second: {fileID: 2100000, guid: 0d78ee0a545f8534da10bbcde83d677e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decoraciones_sub
+    second: {fileID: 2100000, guid: 3b928b20f2d04b14c8e310f7b9bab350, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Cables_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 50db7fb763b42834194616e70ac013ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Cables_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 8a2ca4558b166074d8edce4ea407dec6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Deco_pantalla_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: eb75966366d914b49a11455448a5fb7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Deco_pantalla_Emission.1001
+    second: {fileID: 2800000, guid: f84584c1022e7c34eafa5fd7c02b879b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Deco_pantalla_Normal.1001
+    second: {fileID: 2800000, guid: 7bcfd34c62c092d4784258c680e466d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Deco_pantalla_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 74ddf9eba92bfa8459e11c8dfea7b350, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Marco_pantalla_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 2a92f29c939a00541a68b1423574d19e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Marco_pantalla_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: b73cf91427be0114f8d561684ec2f5c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Pantalla_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 7930329588f8a6d498611d71263c2047, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Pantalla_Normal.1001
+    second: {fileID: 2800000, guid: 26cecd32e40d6794782f23852b6e6481, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Pantalla_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: d621ba10b65aa594e9e201e3fb1389a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Soportes_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 7c044cbaba4f43645a4e061ee5247a5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Televisor_Soportes_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: e1469b641ccba4941acce347ac526fd2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_Marco_sub_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 798784d290302a244a85754320cc19ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_Marco_sub_Normal.1001
+    second: {fileID: 2800000, guid: 2cde1b43f6e9dd946b8e225de19a0233, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_Marco_sub_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: ea6c0f49da813fd4f9afa10014d13125, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_Pantalla_sub_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: d375fe23caded2c46b7b12d34ec7b6b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_Pantalla_sub_Normal.1001
+    second: {fileID: 2800000, guid: b7c17c6ab52c84e489b7288a81d119d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_Pantalla_sub_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: c5eb10bf6f1cb914ca1040f68f3578c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_Soporte_sub_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: cdc6396cd765eeb499a45c0b3ab813c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_Soporte_sub_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: bf2ccf90c6c52904295df787cadeaaa5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_decoraciones_sub_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: e7527e1a141c958459a6611a290b5464, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_decoraciones_sub_Emission.1001
+    second: {fileID: 2800000, guid: 88b42e2c61964b4498d7c7ca73f42848, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_decoraciones_sub_Normal.1001
+    second: {fileID: 2800000, guid: a7b34cbf6cdb25447bf845f3ddeb8e91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sub pantalla_1_decoraciones_sub_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 9c40b46fd8e523a4880fbec9f5eb6c49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teclado_Marco_teclado_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 65a142af7f73a894d9fe3abaf4091ce1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teclado_Marco_teclado_Emission.1001
+    second: {fileID: 2800000, guid: 6e1ef1d56be968c4c871cd2cc623d227, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teclado_Marco_teclado_Normal.1001
+    second: {fileID: 2800000, guid: d23dd6ec42946a345a3f9ca4d13bddad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teclado_Marco_teclado_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: a5be09345e428bb4690a005b31a186b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teclado_Pantalla_teclado_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 1c741fa4293a742489efce09d608fd64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teclado_Pantalla_teclado_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: c943bc80dbb4ac647b36c235ad7ee338, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teclado_Soporte_tecla_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 57f09f0e0833a3d4e97b74799b141712, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teclado_Soporte_tecla_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 25b5a77b6ed556e4caa6a0edab27ed37, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 100
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

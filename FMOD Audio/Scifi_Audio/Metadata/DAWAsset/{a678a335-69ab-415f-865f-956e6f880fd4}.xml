@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DAWAsset" id="{a678a335-69ab-415f-865f-956e6f880fd4}">
+		<property name="assetPath">
+			<value>AudiosVR.rpp.link/AudiosVR.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0343b2c4-2800-48cb-a02b-4be32cdbcd1a}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{e42e29d0-aaf9-45c5-9bfe-1b066013b7f3}</destination>
+		</relationship>
+	</object>
+</objects>
