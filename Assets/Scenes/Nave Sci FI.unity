@@ -1512,8 +1512,8 @@ MonoBehaviour:
   final_screen: {fileID: 613191392}
   Tarjeta: {fileID: 441029004}
   Compuerta: {fileID: 6333438982662567786}
-  Mission3: {fileID: 0}
-  Mission4: {fileID: 0}
+  Mission3: {fileID: 2827304700223183465}
+  Mission4: {fileID: 360127258}
 --- !u!1001 &97731430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2611,7 +2611,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: aeb93905c96ff3348b927eb4ee2b0981,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.352623
+      value: 9.242
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aeb93905c96ff3348b927eb4ee2b0981,
         type: 3}
@@ -22513,7 +22513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1661236719
 Transform:
   m_ObjectHideFlags: 0
@@ -24023,7 +24023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1728464068
 Transform:
   m_ObjectHideFlags: 0
@@ -26913,7 +26913,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1955461192
 Transform:
   m_ObjectHideFlags: 0
@@ -29451,7 +29451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147860503284}
   m_LocalRotation: {x: -0, y: 0.0000005066395, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 0.003, z: 6.998}
+  m_LocalPosition: {x: -0.032, y: 0.003, z: 6.998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32062,6 +32062,12 @@ PrefabInstance:
 --- !u!224 &2827304700223183464 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2827304700682599438, guid: d7dc944faea875a4fbf29883bb16c759,
+    type: 3}
+  m_PrefabInstance: {fileID: 2827304700223183463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2827304700223183465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2827304699951879403, guid: d7dc944faea875a4fbf29883bb16c759,
     type: 3}
   m_PrefabInstance: {fileID: 2827304700223183463}
   m_PrefabAsset: {fileID: 0}
@@ -35659,7 +35665,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5621732697142168266}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.061972164, y: 1.374, z: 25.596758}
+  m_LocalPosition: {x: -0.061972164, y: 1.47, z: 25.596758}
   m_LocalScale: {x: 102.33722, y: 102.33722, z: 102.33722}
   m_ConstrainProportionsScale: 0
   m_Children: []
