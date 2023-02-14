@@ -213,10 +213,10 @@
                 {
                     "name": "",
                     "id": "12f64fb1-1d2a-48af-87e2-3c8646f381c6",
-                    "path": "<XRController>{LeftHand}/menuButton",
+                    "path": "<XRController>{LeftHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Generic XR Controller",
                     "action": "Menu",
                     "isComposite": false,
                     "isPartOfComposite": false

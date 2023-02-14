@@ -21,12 +21,12 @@ public class Lector_Laboratorio : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.name != ("05 Nuclear"))
+        if(other.gameObject.name != ("01 Laboratorio"))
         {
             Denegado.Play(); 
 
         }
-        if (other.gameObject.name.Equals  ("05 Nuclear"))
+        if (other.gameObject.name.Equals  ("01 Laboratorio"))
         {
             audioData.Play(0);
 
