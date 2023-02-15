@@ -663,7 +663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 0
   outlineColor: {r: 1, g: 0.7971634, b: 0, a: 1}
-  outlineWidth: 2.79
+  outlineWidth: 4
   precomputeOutline: 1
   bakeKeys:
   - {fileID: 429687984082188866, guid: db664b2df1060c044992502d297c0d57, type: 3}
@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 0
   outlineColor: {r: 0.6431373, g: 0.427451, b: 0.30588236, a: 1}
-  outlineWidth: 2
+  outlineWidth: 4
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -5965,7 +5965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 0
   outlineColor: {r: 0.514151, g: 0.8785377, b: 1, a: 1}
-  outlineWidth: 2
+  outlineWidth: 4.16
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -13298,7 +13298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &938251014
 Transform:
   m_ObjectHideFlags: 0
@@ -14757,7 +14757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 0
   outlineColor: {r: 0.5411765, g: 0.47058827, b: 0.07450981, a: 1}
-  outlineWidth: 2
+  outlineWidth: 4
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -16601,7 +16601,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1202316711
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17107,7 +17107,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1918525862}
         m_TargetAssemblyTypeName: Puzzle_Audio, Assembly-CSharp
-        m_MethodName: wrongAnswer
+        m_MethodName: atWin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18974,7 +18974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1423028335
 Transform:
   m_ObjectHideFlags: 0
@@ -20593,7 +20593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 0
   outlineColor: {r: 0.54901963, g: 0.121568635, b: 0.11764707, a: 1}
-  outlineWidth: 2
+  outlineWidth: 4
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -25121,7 +25121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 0
   outlineColor: {r: 0.15686275, g: 0.57254905, b: 0.14509805, a: 1}
-  outlineWidth: 2
+  outlineWidth: 4
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -25210,7 +25210,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1918525862}
         m_TargetAssemblyTypeName: Puzzle_Audio, Assembly-CSharp
-        m_MethodName: wrongAnswer
+        m_MethodName: answer2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

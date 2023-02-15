@@ -129,7 +129,7 @@ public class Puzzle_Audio : MonoBehaviour
 
     IEnumerator Cascadatime()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
 
 
         Cascada.Play();
