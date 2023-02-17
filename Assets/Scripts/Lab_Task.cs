@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Lab_Task : MonoBehaviour
 {
-    string Code = "7270";
+    string Code = "030488119";
     string Nr = null;
     int NrIndex = 0;
     string alpha;
@@ -16,7 +16,7 @@ public class Lab_Task : MonoBehaviour
 
     private void Start()
     {
-        Door.SetActive(false);
+        Door.SetActive(true);
     }
     public void CodeFunction(string Numbers)
     {
@@ -31,8 +31,8 @@ public class Lab_Task : MonoBehaviour
         {
             Debug.Log("Correct");
 
-            Door.SetActive(true);
-
+            Door.SetActive(false);
+            
 
         }
     }
