@@ -11,6 +11,13 @@ public class Lab_Task : MonoBehaviour
     string alpha;
     public Text UiText = null;
 
+    [SerializeField]
+    public GameObject Door;
+
+    private void Start()
+    {
+        Door.SetActive(false);
+    }
     public void CodeFunction(string Numbers)
     {
         NrIndex++;
@@ -23,6 +30,10 @@ public class Lab_Task : MonoBehaviour
         if (Nr == Code)
         {
             Debug.Log("Correct");
+
+            Door.SetActive(true);
+
+
         }
     }
     public void Delete()
