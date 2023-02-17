@@ -64,7 +64,7 @@ public class MainScript : MonoBehaviour
         SpawnButtons(new Vector3(-127, 126, 0), new Vector2(260, 260));
         SpawnButtons(new Vector3(-127, -142, 0), new Vector2(260, 260));
         SpawnButtons(new Vector3(144, -142, 0), new Vector2(260, 260));
-        SpawnButtons(new Vector3(0, 0, 0), new Vector2(225, 225));
+        SpawnButtons(new Vector3(9, -87, 0), new Vector2(225, 225));
         FinalScreen();
 
         for (int i = 0; i < buttonsList.Count; i++)
