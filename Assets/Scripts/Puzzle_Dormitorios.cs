@@ -1,3 +1,4 @@
+using FMOD;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,39 +6,50 @@ using UnityEngine.InputSystem;
 
 public class Puzzle_Dormitorios : MonoBehaviour
 {
-    public InputActionAsset inputActions;
-    public InputAction Select;
 
     public float CorrectPosition;
     [SerializeField]
-    bool isRotated = false;
-    
+   
+    bool isPlaced = false;
+
+
     float[] rotations = { 0, 90, 180, 270 };
 
     private void Start()
     {
         int rand = Random.Range(0, rotations.Length);
         transform.eulerAngles = new Vector3(0, 90, rotations[rand]);
-
-
-        Select = inputActions.FindActionMap("XRI RightHand").FindAction("Select");
-
-
-
-        if (Input.GetKeyDown("Select"))
+             
+        if (transform.eulerAngles.z == CorrectPosition )
         {
-            // transform.Rotate(new Vector3(0, 0, 90));
-
-            if (transform.eulerAngles.z == CorrectPosition )
-            {
-                isRotated = true;
-            }
-
-          
+            isPlaced = true;
         }
+      
+    }
+
+    public void Rotate()
+    {
+        
+        transform.Rotate(new Vector3(0,0,90));
+        if (transform.eulerAngles.z == CorrectPosition && isPlaced == false)
+        {
+            isPlaced = true;
+        }
+        else if (isPlaced == true)
+        {
+            isPlaced = false;
+        }
+        
+            
+        
+
+
+
+
+
     }
 
 
-    
+
 
 }

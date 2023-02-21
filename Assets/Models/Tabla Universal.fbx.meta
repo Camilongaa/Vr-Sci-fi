@@ -5,6 +5,11 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tabla_1
+    second: {fileID: 2100000, guid: 1bc582c3c894ae740ba8d06f3d6237ee, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: "Tabla Peri\xF3dica Universal"
