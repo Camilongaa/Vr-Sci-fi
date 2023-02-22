@@ -10,6 +10,8 @@ public class Manager_Cables : MonoBehaviour
 
     [SerializeField]
     int totalcables = 0;
+    [SerializeField]
+    int correctedRot  = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -26,9 +28,21 @@ public class Manager_Cables : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void CorrectMove()
     {
-        
+        correctedRot += 1;
+        Debug.Log("correctedRot");
+
+        if (correctedRot == totalcables)
+        {
+            Debug.Log("Sistema de energia restablecido");
+        }
+    }
+
+    public void wrongMove()
+
+    {
+        correctedRot -= 1;
+        Debug.Log("wrongMove");
     }
 }

@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+*.mat
+Assets/Graphics Settings/SpaceSkies Free/Skybox_3/Purple_2K_Resolution.mat
+Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+Assets/Scenes/Nave Sci FI.unity
+Assets/Scripts/MainScript.cs
+fmod_editor.log
