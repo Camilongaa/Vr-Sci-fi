@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 69e5b3c947d8cd24d83ebfd6f7543223
+guid: 272b5d4548d4007478bf54c4aae03e99
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Pasillo_Escape_Tx
-    second: {fileID: 2100000, guid: 06bbf6611b1f42e41a9423c2cc537006, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: estructurafinalx2(1)_Pasillo_Escape_Tx_AlbedoTransparency
-    second: {fileID: 2800000, guid: 6dd96026455698f418f87fcd31c204ef, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: estructurafinalx2(1)_Pasillo_Escape_Tx_Emission
-    second: {fileID: 2800000, guid: 9330ddad5eae05844abefd8b3129510b, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: estructurafinalx2(1)_Pasillo_Escape_Tx_MetallicSmoothness
-    second: {fileID: 2800000, guid: 6e088df0dc0f6174db5364964a532bd9, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: estructurafinalx2(1)_Pasillo_Escape_Tx_Normal
-    second: {fileID: 2800000, guid: 01fbc316362e0a840912ef9c092f53ba, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
