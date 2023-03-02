@@ -6,18 +6,35 @@ using UnityEngine.Audio;
 
 public class AudioWrist : MonoBehaviour
 {
-    // Start is called before the first frame update
+  
+    [Header("Audio")]
+    [SerializeField]AudioSource FirtsAudioSource;
+    [SerializeField]AudioSource SecondAudioSource;
+
     void Start()
     {
 
-
+        FirtsAudioSource = GetComponent<AudioSource>();
+        SecondAudioSource = GetComponent<AudioSource>();
         StartCoroutine(FirtsAudio());
+
+        StartCoroutine(SecondAudio());
 
     }
 
     IEnumerator FirtsAudio()
     {
         yield return new WaitForSeconds(12);
-        this.GetComponent<AudioSource>().Play();
+        FirtsAudioSource.Play();
     }
+
+
+    IEnumerator SecondAudio()
+    {
+        yield return new WaitForSeconds(20);
+        SecondAudioSource.Play();
+    }
+
+
+
 }
