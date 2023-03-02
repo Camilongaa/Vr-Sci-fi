@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Unity.Burst.Intrinsics.X86.Avx;
 
 
 public class Puzzle_SalaMedica : MonoBehaviour
@@ -79,9 +80,9 @@ public class Puzzle_SalaMedica : MonoBehaviour
 
     public void abrirCompuerta()
     {
-        Compuerta.transform.Rotate(-90, 0, 0);
+        Destroy(Compuerta);
         CompuertaOpen.Play();
-
+        
 
     }
 

@@ -30,6 +30,8 @@ public class WristMenu : MonoBehaviour
     public void ToggleMenu(InputAction.CallbackContext context)
     {
         _WristCanvas.enabled = !_WristCanvas.enabled;
+
+
     }
 
 
