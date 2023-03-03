@@ -15,7 +15,7 @@ public class Puzzle_SalaMedica : MonoBehaviour
 
 
     [Header("Niveles")]
-
+    public GameObject Inicial;
     public GameObject Level_one;
     public GameObject Level_Two;
     public GameObject Level_Three;
@@ -30,7 +30,8 @@ public class Puzzle_SalaMedica : MonoBehaviour
 
     public void Start()
     {
-        Level_one.SetActive(true);
+        Inicial.SetActive(true);
+        Level_one.SetActive(false);
         Level_Two.SetActive(false);
         Level_Three.SetActive(false);
 
@@ -41,6 +42,12 @@ public class Puzzle_SalaMedica : MonoBehaviour
 
     }
 
+    public void Initializate()
+    {
+        Inicial.SetActive(false);
+        Level_one.SetActive(true);
+        
+    }
     public void RightAnswer1()
     {
         CorrectAnswer.Play();

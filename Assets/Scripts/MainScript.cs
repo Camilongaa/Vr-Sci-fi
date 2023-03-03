@@ -9,14 +9,19 @@ public class MainScript : MonoBehaviour
 {
     public static MainScript instance { get; private set; }
 
-
+    public Sprite[] buttonImages;
+    public Sprite[] newButtonImages;
+    public Text currentRounds;
+    public GameObject Failed;
+    public GameObject button;
+    public Transform mainUI;
     // Fin Del juego
     private void Update()
     {
-        if (round == 5)
+        if (round == 7)
         {
-            
-            Debug.Log("Fin");
+            mainUI.gameObject.SetActive(false);
+            Failed.SetActive(true);
         }
     }
     void Awake()
@@ -49,12 +54,7 @@ public class MainScript : MonoBehaviour
     
     private int counter = 0;
 
-    public Sprite[] buttonImages;
-    public Sprite[] newButtonImages;
-    public Text currentRounds;
-    public GameObject Failed;
-    public GameObject button;
-    public Transform mainUI;
+
 
     System.Random rnd = new System.Random();
 
