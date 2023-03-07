@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: c0427e815314e4e42966bcceb3d51a87
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Capsula_ESC
+    second: {fileID: 2100000, guid: bf2a42152e9d96545818d7fcf9772773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Computador_Capsula_ESC
+    second: {fileID: 2100000, guid: 19e39d708191df44aaa669394800e238, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Marco_Capsula_ESC
+    second: {fileID: 2100000, guid: 18ca414d6d3fe46459ab64c2eb0b8c16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Mesa_Capsula_ESC
+    second: {fileID: 2100000, guid: a3e07390f3c81de4c98ebcc110019642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Panel_Sala_ESC
+    second: {fileID: 2100000, guid: 206564dec549dbf48ae4d843e4906f11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Puerta_Capsula_ESC
+    second: {fileID: 2100000, guid: addd187354d7ff34d8fa54123e9beffd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Teclado_Capsula_ESC
+    second: {fileID: 2100000, guid: cbf290f5f4255384983fbe5d1f211203, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Vidrio_Cap_ESC
+    second: {fileID: 2100000, guid: 9fb75bc70bb455043bc4e7470207c15e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Capsula_ESC05_Tx_Capsula_ESC_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: cba8460bbbbd81e4bb95b91b1f8b0a1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Capsula_ESC05_Tx_Capsula_ESC_Emission.1001
+    second: {fileID: 2800000, guid: ec83795c018cfe04e99e5414a20e8224, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Capsula_ESC05_Tx_Capsula_ESC_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: b2277e2a2012cf943886edbd1e4f9050, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Capsula_ESC05_Tx_Capsula_ESC_Normal.1001
+    second: {fileID: 2800000, guid: 40831bd4af722bb41a5153111ac63020, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computador_Capsula_ESC_Tx_Computador_Capsula_ESC_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: cd02ba485bbd5bb43af884d31db5925f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computador_Capsula_ESC_Tx_Computador_Capsula_ESC_Emission.1001
+    second: {fileID: 2800000, guid: 8bdf1014d91a48349a345bbe8cdd5b59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computador_Capsula_ESC_Tx_Computador_Capsula_ESC_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: e66e62b29b414214b9251625a05231f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computador_Capsula_ESC_Tx_Computador_Capsula_ESC_Normal.1001
+    second: {fileID: 2800000, guid: 1c2271c16bc8c3d41847da0475c7f0ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesa_Capsula_ESC_Tx_Mesa_Capsula_ESC_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: dfee0f18cbd52c14c80448479e9dc2cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesa_Capsula_ESC_Tx_Mesa_Capsula_ESC_Emission.1001
+    second: {fileID: 2800000, guid: c56991f916e15514999bad68e318e771, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesa_Capsula_ESC_Tx_Mesa_Capsula_ESC_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: c931f9f0e6db6e241a20148f53d622cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesa_Capsula_ESC_Tx_Mesa_Capsula_ESC_Normal.1001
+    second: {fileID: 2800000, guid: 68f7a66c4bb92664688fead3dbf07e9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Panel_Sala_ESC_Tx_Panel_Sala_ESC_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 1e1eac048760e4744a32bed5e2c42813, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Panel_Sala_ESC_Tx_Panel_Sala_ESC_Emission.1001
+    second: {fileID: 2800000, guid: 02d74a5229bb01f40bc1d3d4c244df80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Panel_Sala_ESC_Tx_Panel_Sala_ESC_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: ab320d9440ccf0442a708d248ad5993b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Panel_Sala_ESC_Tx_Panel_Sala_ESC_Normal.1001
+    second: {fileID: 2800000, guid: 20870d0edcdac6e44b252a7083969f85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Puerta_Capsula_ESC_Tx_Marco_Capsula_ESC_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 5d44c9ae400270c48ae2c655a609af98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Puerta_Capsula_ESC_Tx_Marco_Capsula_ESC_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 24fb1d1abc6b8fc4d81d457afaa05ace, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Puerta_Capsula_ESC_Tx_Marco_Capsula_ESC_Normal.1001
+    second: {fileID: 2800000, guid: 176e164610c4c9e46aa3cdb847aa0e65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Puerta_Capsula_ESC_Tx_Puerta_Capsula_ESC_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 7e115380bb5ec7e4db56160450cb8253, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Puerta_Capsula_ESC_Tx_Puerta_Capsula_ESC_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 321b1e6cee7abff408c04549e995f60b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Puerta_Capsula_ESC_Tx_Puerta_Capsula_ESC_Normal.1001
+    second: {fileID: 2800000, guid: e9fc9cf291ef3fd44b5eab02681b7815, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Teclado_Capsula_ESC_Tx_Teclado_Capsula_ESC_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 02834fb5f448ed748aba441e2304df13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Teclado_Capsula_ESC_Tx_Teclado_Capsula_ESC_Emission.1001
+    second: {fileID: 2800000, guid: 089c3d6b86ba2b6488415cf9d29b5e78, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Teclado_Capsula_ESC_Tx_Teclado_Capsula_ESC_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: f7b11c1d45376e7449d140008324bd4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Teclado_Capsula_ESC_Tx_Teclado_Capsula_ESC_Normal.1001
+    second: {fileID: 2800000, guid: 88b5dddfb90d08c468bddc7b9f1d02f0, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

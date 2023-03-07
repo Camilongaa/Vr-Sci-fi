@@ -6,7 +6,7 @@ using static Unity.Burst.Intrinsics.X86.Avx;
 
 public class Puzzle_SalaMedica : MonoBehaviour
 {
-    float speed = 1;
+  
     [Header("Audios")]
     public AudioSource CorrectAnswer;
     public AudioSource WrongAnswer;
@@ -15,7 +15,6 @@ public class Puzzle_SalaMedica : MonoBehaviour
 
 
     [Header("Niveles")]
-    public GameObject Inicial;
     public GameObject Level_one;
     public GameObject Level_Two;
     public GameObject Level_Three;
@@ -30,8 +29,8 @@ public class Puzzle_SalaMedica : MonoBehaviour
 
     public void Start()
     {
-        Inicial.SetActive(true);
-        Level_one.SetActive(false);
+        
+        Level_one.SetActive(true);
         Level_Two.SetActive(false);
         Level_Three.SetActive(false);
 
@@ -42,12 +41,7 @@ public class Puzzle_SalaMedica : MonoBehaviour
 
     }
 
-    public void Initializate()
-    {
-        Inicial.SetActive(false);
-        Level_one.SetActive(true);
-        
-    }
+    
     public void RightAnswer1()
     {
         CorrectAnswer.Play();

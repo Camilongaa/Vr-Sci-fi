@@ -16,14 +16,14 @@ public class CableController : MonoBehaviour
     }
 
 
-    private void update()
+    private void Update()
     {
        if (cables[0].rotation.z == 0 &&
           cables[1].rotation.z == 0 &&
             cables[2].rotation.z == 0 &&
           cables[3].rotation.z == 0 &&
             cables[4].rotation.z == 0 &&
-          cables[5].rotation.z == 0 &&
+          cables[5].rotation.z == 0  &&
             cables[6].rotation.z == 0 &&
           cables[7].rotation.z == 0 &&
             cables[8].rotation.z == 0 &&
@@ -33,8 +33,8 @@ public class CableController : MonoBehaviour
           cables[12].rotation.z == 0 &&
             cables[13].rotation.z == 0 &&
           cables[14].rotation.z == 0 &&
-            cables[15].rotation.z == 0 &&
-            cables[16].rotation.z == 0)
+            cables[15].rotation.z == 0
+            )
         {
 
             youwin = true;

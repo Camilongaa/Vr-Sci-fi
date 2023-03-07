@@ -15,17 +15,26 @@ public class MainScript : MonoBehaviour
     public GameObject Failed;
     public GameObject button;
     public Transform mainUI;
+    public GameObject LastScreen;
+
+    public GameObject compuerta;
+
     // Fin Del juego
     private void Update()
     {
-        if (round == 7)
+        if (round == 5)
         {
-            mainUI.gameObject.SetActive(false);
-            Failed.SetActive(true);
+            Destroy(this.gameObject);
+          
+            LastScreen.SetActive(true);
+            Debug.Log("Fin del juego");
+            compuerta.SetActive(false);
+
         }
     }
     void Awake()
     {
+        compuerta.SetActive(true);
         if (instance == null)
         {
             instance = this;
@@ -71,7 +80,7 @@ public class MainScript : MonoBehaviour
         {
             buttonsList[i].GetComponent<ButtonScript>().ApplySprite(buttonImages[i]);
         }
-
+        StartCoroutine(Final());
         AddObject();
     }
 
@@ -145,5 +154,14 @@ public class MainScript : MonoBehaviour
         finalScreen = Instantiate(Failed, pos, Quaternion.identity);
         finalScreen.SetActive(false);
         finalScreen.transform.SetParent(mainUI, false);      
+    }
+
+    IEnumerator Final()
+    {
+        yield return new WaitForSeconds(15);
+        Destroy(this.gameObject);
+        LastScreen.SetActive(true);
+        compuerta.SetActive(false);
+
     }
 }
