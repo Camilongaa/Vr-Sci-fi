@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Nevera1
-    second: {fileID: 2100000, guid: b9c6fab7e4ffd384cb6bae0b48863eab, type: 2}
+    second: {fileID: 2100000, guid: abfa65cc68744e94aa5f40dbfb881d75, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule

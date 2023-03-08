@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 82345dac9e9ef8c46a1cbe25c565ffe4
+guid: 5577f86ef7788d441a8bd4e1c4444eeb
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,52 +8,42 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert3SG
-    second: {fileID: 2100000, guid: 0515a4f1f3dee2e40b936bf72f24066c, type: 2}
+    second: {fileID: 2100000, guid: 6e7c15b5311d1f845bc786182ffc6c10, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert4SG
-    second: {fileID: 2100000, guid: 69458ee6fb3601f469a97467d6261689, type: 2}
+    second: {fileID: 2100000, guid: 84c2cac0e6d239646aeea5ae2ded985a, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta para revisar_lambert3SG_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: 9dfdbb8afc20c0148955fddb1e1e32f9, type: 3}
+    second: {fileID: 2800000, guid: ec8f346dd957fd84d9c455f983ae7710, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta para revisar_lambert3SG_Emission.1001
-    second: {fileID: 2800000, guid: 5883aba684a9a6d4da4b39851b873083, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Puerta para revisar_lambert3SG_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: 39d1e5a5c3f469e4a9a34127fb953467, type: 3}
+    second: {fileID: 2800000, guid: 40626d22ac830be4e8586fe8ba433623, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta para revisar_lambert3SG_Normal.1001
-    second: {fileID: 2800000, guid: 59fd2448a9e0bed4385116520b0ef969, type: 3}
+    second: {fileID: 2800000, guid: 6b427f6dae079e041a65ebd46d20b7e2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta para revisar_lambert4SG_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: bb0c45f8fc213a045b09bd3ebc9e03b9, type: 3}
+    second: {fileID: 2800000, guid: ed69848354f7dde4b882f238fca8944a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta para revisar_lambert4SG_Emission.1001
-    second: {fileID: 2800000, guid: 2a573909992076a499f65175d7567323, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Puerta para revisar_lambert4SG_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: 4c36becba2e964943b5433f10d5a2526, type: 3}
+    second: {fileID: 2800000, guid: b0a988f49fbdeb444a70d5d05e920fc3, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Puerta para revisar_lambert4SG_Normal.1001
-    second: {fileID: 2800000, guid: 69f937b37fd4dbf4bb307ab3e403c159, type: 3}
+    second: {fileID: 2800000, guid: c3965d706c3821c4396821a2da2643ab, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -85,7 +75,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.01
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -138,7 +128,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
