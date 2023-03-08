@@ -18,23 +18,23 @@ public class AudioWrist : MonoBehaviour
         SecondAudioSource = GetComponent<AudioSource>();
         StartCoroutine(FirtsAudio());
 
-        StartCoroutine(SecondAudio());
+      //  StartCoroutine(SecondAudio());
 
     }
 
     IEnumerator FirtsAudio()
     {
-        yield return new WaitForSeconds(12);
+        yield return new WaitForSeconds(5);
         FirtsAudioSource.Play();
     }
 
 
-    IEnumerator SecondAudio()
+    /*IEnumerator SecondAudio()
     {
-        yield return new WaitForSeconds(20);
+        yield return new WaitForSeconds(10);
         SecondAudioSource.Play();
     }
-
+    */
 
 
 }

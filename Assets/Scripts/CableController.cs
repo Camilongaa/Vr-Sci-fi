@@ -6,6 +6,7 @@ public class CableController : MonoBehaviour
 {
     [SerializeField] private Transform[] cables;
     [SerializeField] private GameObject winText;
+    [SerializeField] private GameObject Luces;
     [SerializeField] private GameObject Tarjeta;
     public static bool youwin;
     private void Start()
@@ -13,6 +14,7 @@ public class CableController : MonoBehaviour
         Tarjeta.SetActive(false);
         winText.SetActive(false);
         youwin = false;
+        
     }
 
 
@@ -22,7 +24,7 @@ public class CableController : MonoBehaviour
           cables[1].rotation.z == 0 &&
             cables[2].rotation.z == 0 &&
           cables[3].rotation.z == 0 &&
-            cables[4].rotation.z == 0 &&
+            cables[4].rotation.z == 0   &&
           cables[5].rotation.z == 0  &&
             cables[6].rotation.z == 0 &&
           cables[7].rotation.z == 0 &&
@@ -40,7 +42,7 @@ public class CableController : MonoBehaviour
             youwin = true;
             winText.SetActive(true);
             Tarjeta.SetActive(true);
-
+            Luces.SetActive(true);
 
 
 
