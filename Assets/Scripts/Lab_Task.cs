@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Lab_Task : MonoBehaviour
 {
-    string Code = "030488119";
+    string Code = "320805118";
     string Nr = null;
     int NrIndex = 0;
     string alpha;

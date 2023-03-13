@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert3SG
-    second: {fileID: 2100000, guid: 6e7c15b5311d1f845bc786182ffc6c10, type: 2}
+    second: {fileID: 2100000, guid: 5152268f3488a054388c6a634e401727, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert4SG
-    second: {fileID: 2100000, guid: 84c2cac0e6d239646aeea5ae2ded985a, type: 2}
+    second: {fileID: 2100000, guid: e487eb2bbf57bdd4d9a51a057939bd92, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule

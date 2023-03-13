@@ -76,7 +76,7 @@ public class Puzzle_Audio : MonoBehaviour
 
     IEnumerator answer1()
     {
-        yield return new WaitForSeconds(16);
+        yield return new WaitForSeconds(12);
 
         Firts_Level.SetActive(true);
         Aullido.Play();
@@ -138,6 +138,17 @@ public class Puzzle_Audio : MonoBehaviour
     }
 
 
+    public  void Replay1()
+    {
+        Aullido.Play();
+        
+        
+    }
+
+    public void Replay2()
+    {
+        Cascada.Play();
+    }
 
 
 }
