@@ -26,7 +26,9 @@ public class Puzzle_Audio : MonoBehaviour
     public float speed;
     Vector3 Targerposition;
 
-    
+    public GameObject TextoTarjeta;
+
+
 
     float time;
 
@@ -71,7 +73,7 @@ public class Puzzle_Audio : MonoBehaviour
         Firts_Level.SetActive(false); 
         Second_Level.SetActive(false);
         third_Level.SetActive(false);
-
+        TextoTarjeta.SetActive(false);
     }
 
     IEnumerator answer1()
@@ -124,6 +126,7 @@ public class Puzzle_Audio : MonoBehaviour
 
         Destroy(this.gameObject);
 
+        TextoTarjeta.SetActive(true);
 
     }
 

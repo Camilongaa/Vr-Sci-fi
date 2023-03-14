@@ -3,7 +3,27 @@ guid: 6ee13e9b427950a44915ebf9fa8e464b
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro E_Libro_E_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 60dc80a1e8a76044a80f7ffb24d8a76e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro E_Libro_E_Emission.1001
+    second: {fileID: 2800000, guid: f6cbe24f9e3d9fa41847e1b339e2ca2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro E_Libro_E_Normal.1001
+    second: {fileID: 2800000, guid: cc3e6787e5ddec14ea15ee33e7282f77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro E_Libro_E_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 9edb09cb1b6dc9e4b9f0d77cb997627e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 public class Lights_Off : MonoBehaviour
 {
     public GameObject lights;
-    // Start is called before the first frame update
+    
     public async void OnTriggerEnter(Collider other)
     {
         lights.gameObject.SetActive(false);
@@ -20,5 +20,9 @@ public class Lights_Off : MonoBehaviour
     private void Delete()
     {
         Destroy(this.gameObject);
+    }
+    void Start()
+    {
+        lights.gameObject.SetActive(true);
     }
 }
