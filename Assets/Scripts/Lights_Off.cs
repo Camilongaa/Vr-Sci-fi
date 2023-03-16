@@ -7,22 +7,30 @@ using System.Threading.Tasks;
 public class Lights_Off : MonoBehaviour
 {
     public GameObject lights;
-    
-    public async void OnTriggerEnter(Collider other)
+    public AudioSource Dialogo09;
+
+    public  void OnTriggerEnter(Collider other)
     {
-        lights.gameObject.SetActive(false);
+        if (other.tag == "Player")
+        {
+            lights.gameObject.SetActive(false);
 
-        await Task.Delay(2000);
+            Dialogo09.Play();
+        }
+        
+
+        
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
         Delete();
-
     }
 
     private void Delete()
     {
         Destroy(this.gameObject);
     }
-    void Start()
-    {
-        lights.gameObject.SetActive(true);
-    }
+   
 }

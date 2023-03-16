@@ -16,6 +16,11 @@ public class Puzzle_Audio : MonoBehaviour
     public AudioSource Correct_Answer;
     public AudioSource Wrong_Answer;
 
+    public AudioSource DialogoFinal;
+
+
+
+
 
 
     [Header("Componentes")]
@@ -52,8 +57,7 @@ public class Puzzle_Audio : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Targerposition = DisabledPosition.position;
-            time = 0;
+            Destroy(this.gameObject);
         }
     }
 
@@ -124,9 +128,11 @@ public class Puzzle_Audio : MonoBehaviour
         Tarjeta.SetActive(true);
         third_Level.SetActive(false);
 
-        Destroy(this.gameObject);
 
+        Second_Level.SetActive(false);
         TextoTarjeta.SetActive(true);
+
+        DialogoFinal.Play();
 
     }
 

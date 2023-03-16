@@ -11,7 +11,7 @@ public class Puzzle_SalaMedica : MonoBehaviour
     public AudioSource CorrectAnswer;
     public AudioSource WrongAnswer;
 
-    public AudioSource CompuertaOpen;
+    public AudioSource Dialogo10;
 
 
     [Header("Niveles")]
@@ -82,7 +82,7 @@ public class Puzzle_SalaMedica : MonoBehaviour
     public void abrirCompuerta()
     {
         Destroy(Compuerta);
-        CompuertaOpen.Play();
+        Dialogo10.Play();
         
 
     }

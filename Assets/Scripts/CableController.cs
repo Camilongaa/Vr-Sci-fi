@@ -14,7 +14,8 @@ public class CableController : MonoBehaviour
         Tarjeta.SetActive(false);
         winText.SetActive(false);
         youwin = false;
-        
+        Luces.SetActive(true);
+
     }
 
 
