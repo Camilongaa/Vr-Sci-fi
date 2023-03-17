@@ -20,6 +20,9 @@ public class MainScript : MonoBehaviour
     public GameObject compuerta;
     public GameObject TarjetaAqui;
 
+    public GameObject LuzRoja;
+    public GameObject LuzNormal;
+
     // Fin Del juego
 
     private void OnDestroy()
@@ -27,6 +30,11 @@ public class MainScript : MonoBehaviour
         instance = null;
         LastScreen.gameObject.SetActive(true);
         TarjetaAqui.gameObject.SetActive(true);
+        buttonOrder.Clear();
+        DisableButtons();
+        compuerta.gameObject.SetActive(false);
+        LuzRoja.gameObject.SetActive(true);
+        LuzNormal.SetActive(false);
     }
     private void Update()
     {
