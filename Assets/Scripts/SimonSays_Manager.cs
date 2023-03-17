@@ -5,7 +5,7 @@ using UnityEngine;
 public class SimonSays_Manager : MonoBehaviour
 {
     public GameObject GameCanvas;
-    public GameObject Background1;
+    
     private void Start()
     {
         GameCanvas.SetActive(false);
@@ -14,7 +14,7 @@ public class SimonSays_Manager : MonoBehaviour
     public  void StartGame()
     {
         GameCanvas.SetActive(true);
-        Background1.SetActive(false);
+        
 
         Destroy(this.gameObject);
     }

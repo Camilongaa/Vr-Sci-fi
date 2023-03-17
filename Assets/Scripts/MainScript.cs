@@ -18,20 +18,26 @@ public class MainScript : MonoBehaviour
     public GameObject LastScreen;
 
     public GameObject compuerta;
+    public GameObject TarjetaAqui;
 
     // Fin Del juego
+
+    private void OnDestroy()
+    {
+        instance = null;
+        LastScreen.gameObject.SetActive(true);
+        TarjetaAqui.gameObject.SetActive(true);
+    }
     private void Update()
     {
         if (round == 5)
         {
-            Destroy(this.gameObject);
-          
-            LastScreen.SetActive(true);
-            Debug.Log("Fin del juego");
-            compuerta.SetActive(false);
+            Destroy(gameObject);
 
         }
     }
+
+    
     void Awake()
     {
         compuerta.SetActive(true);

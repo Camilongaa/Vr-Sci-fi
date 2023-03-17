@@ -8,6 +8,8 @@ public class CableController : MonoBehaviour
     [SerializeField] private GameObject winText;
     [SerializeField] private GameObject Luces;
     [SerializeField] private GameObject Tarjeta;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private GameObject TarjetaAqui;
     public static bool youwin;
     private void Start()
     {
@@ -15,6 +17,7 @@ public class CableController : MonoBehaviour
         winText.SetActive(false);
         youwin = false;
         Luces.SetActive(true);
+        
 
     }
 
@@ -44,8 +47,9 @@ public class CableController : MonoBehaviour
             winText.SetActive(true);
             Tarjeta.SetActive(true);
             Luces.SetActive(true);
+            TarjetaAqui.SetActive(true);
 
-
+            audioSource.Play();
 
         }
             

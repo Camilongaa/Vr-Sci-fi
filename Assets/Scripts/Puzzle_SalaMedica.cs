@@ -25,7 +25,8 @@ public class Puzzle_SalaMedica : MonoBehaviour
     public GameObject Compuerta;
     public GameObject Mission3;
     public GameObject Mission4;
-    
+    public GameObject TarjetaAqui;
+
 
     public void Start()
     {
@@ -83,7 +84,8 @@ public class Puzzle_SalaMedica : MonoBehaviour
     {
         Destroy(Compuerta);
         Dialogo10.Play();
-        
+        TarjetaAqui.SetActive(true);
+
 
     }
 
