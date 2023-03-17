@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: FMOD Audio/Scifi_Audio/Build/Desktop/SoundEffects.bank
   Name: SoundEffects
   StudioPath: bank:/SoundEffects
-  lastModified: 638081828129225423
+  lastModified: 638144027744738923
   FileSizes:
   - Name: Desktop
     Value: 59072
@@ -62,7 +62,7 @@ MonoBehaviour:
   Path: FMOD Audio/Scifi_Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638081828120425875
+  lastModified: 638144027744718915
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -90,7 +90,7 @@ MonoBehaviour:
   - {fileID: -422756141337808390}
   StringsBanks:
   - {fileID: 8797499675950200738}
-  cacheTime: 638081828129225423
+  cacheTime: 638144027744738923
   cacheVersion: 131601
 --- !u!114 &8797499675950200738
 MonoBehaviour:
@@ -107,7 +107,7 @@ MonoBehaviour:
   Path: FMOD Audio/Scifi_Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638081828120496115
+  lastModified: 638144027744728922
   FileSizes:
   - Name: Desktop
     Value: 872
