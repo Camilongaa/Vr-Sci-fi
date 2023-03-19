@@ -28,82 +28,82 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Consola_maestra1_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: 0c164a438bfa3b3458a38eed414275fd, type: 3}
+    second: {fileID: 2800000, guid: 27458680b31412f4ea41c0c978a19035, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Consola_maestra1_Emission.1001
-    second: {fileID: 2800000, guid: 6f8595fe9f326f544bfe090b46e6fc5a, type: 3}
+    second: {fileID: 2800000, guid: d357e49587405e54288fe92049687a38, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Consola_maestra1_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: dcd574892b30f3d478ae4e4fceed18ca, type: 3}
+    second: {fileID: 2800000, guid: 09727e8819a0efe4c90b553491f996cf, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Consola_maestra1_Normal.1001
-    second: {fileID: 2800000, guid: e8d1f0743468bdf4faf735139632d820, type: 3}
+    second: {fileID: 2800000, guid: 34b5cbcc4b4b25847b755f7daf450644, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Cosas_CM_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: 56d849eeb57777945827102925b470b0, type: 3}
+    second: {fileID: 2800000, guid: e4cbd84c3293d3d439fe63b836cd6984, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Cosas_CM_Emission.1001
-    second: {fileID: 2800000, guid: 4bddce4c10ac6c64f8496cffe1ed430c, type: 3}
+    second: {fileID: 2800000, guid: 7cbcafbff226c31409cca307d4a84bcb, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Cosas_CM_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: d56197b69f2ad034da04c5414fdd691d, type: 3}
+    second: {fileID: 2800000, guid: d88a6e918a5c3c4458c8d5b7a001f9ec, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Cosas_CM_Normal.1001
-    second: {fileID: 2800000, guid: 540a6e556c8fa594894b35c6cf16d09f, type: 3}
+    second: {fileID: 2800000, guid: 90e98061600dbc04c9912c889a9bc974, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Pantallas_CM_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: 063e44f9ddca7284d93a2e7e6b6f88fe, type: 3}
+    second: {fileID: 2800000, guid: e2b27528323364344a2d42d0aae5bdd2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Pantallas_CM_Emission.1001
-    second: {fileID: 2800000, guid: ad04f2c368031954a9f3fb76d57bafcc, type: 3}
+    second: {fileID: 2800000, guid: 4ef130708c73cdf4cb60df6fdd753149, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Pantallas_CM_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: 467b8fe9562681447b51851701d1835a, type: 3}
+    second: {fileID: 2800000, guid: 2d5214200eaa5874b9178a579501abe9, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Pantallas_CM_Normal.1001
-    second: {fileID: 2800000, guid: 001ccae94ec24ab43abf149931ef6039, type: 3}
+    second: {fileID: 2800000, guid: 1c2a9c91eb5aab948a52933ee601e967, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Tapa_CM_co_AlbedoTransparency.1001
-    second: {fileID: 2800000, guid: ff134387e86960b409d3b2f01a1fcdb6, type: 3}
+    second: {fileID: 2800000, guid: f8d72ba150fe51344b291b8daa924486, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Tapa_CM_co_Emission.1001
-    second: {fileID: 2800000, guid: f7ac8f7d6c817d548876457465b2db77, type: 3}
+    second: {fileID: 2800000, guid: c689e62769e34e04d93361dca81738fd, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Tapa_CM_co_MetallicSmoothness.1001
-    second: {fileID: 2800000, guid: 8cbe2c54b19ba654180315edb6e76bd3, type: 3}
+    second: {fileID: 2800000, guid: 39dc8292b5968464ba9263725b87725a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Consola Maestra CO V3_Tapa_CM_co_Normal.1001
-    second: {fileID: 2800000, guid: 82805d2d79f31554ba58a9559d5e5e11, type: 3}
+    second: {fileID: 2800000, guid: 721781fb1f467754e9d22687594e40ac, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

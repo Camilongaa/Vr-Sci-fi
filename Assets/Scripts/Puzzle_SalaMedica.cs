@@ -23,8 +23,8 @@ public class Puzzle_SalaMedica : MonoBehaviour
     [Header("Objetos")]
     public GameObject Tarjeta;
     public GameObject Compuerta;
-    public GameObject Mission3;
-    public GameObject Mission4;
+    //public GameObject Mission3;
+   // public GameObject Mission4;
     public GameObject TarjetaAqui;
 
 
@@ -37,7 +37,7 @@ public class Puzzle_SalaMedica : MonoBehaviour
 
         Tarjeta.SetActive(false);
 
-        Mission4.SetActive(false);
+       // Mission4.SetActive(false);
 
 
     }
@@ -71,8 +71,8 @@ public class Puzzle_SalaMedica : MonoBehaviour
 
         Tarjeta.SetActive(true);
 
-        Mission3.SetActive(false);
-        Mission4.SetActive(true);
+      //  Mission3.SetActive(false);
+       // Mission4.SetActive(true);
     }
 
     public void Wronganswer()

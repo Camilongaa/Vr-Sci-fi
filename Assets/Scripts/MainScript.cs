@@ -23,6 +23,10 @@ public class MainScript : MonoBehaviour
     public GameObject LuzRoja;
     public GameObject LuzNormal;
 
+    public AudioSource Alarma;
+
+    public AudioSource OrderSound;
+
     // Fin Del juego
 
     private void OnDestroy()
@@ -35,10 +39,11 @@ public class MainScript : MonoBehaviour
         compuerta.gameObject.SetActive(false);
         LuzRoja.gameObject.SetActive(true);
         LuzNormal.SetActive(false);
+        Alarma.Play();
     }
     private void Update()
     {
-        if (round == 5)
+        if (round == 7)
         {
             Destroy(gameObject);
 
@@ -150,6 +155,9 @@ public class MainScript : MonoBehaviour
             buttonOrder[i].GetComponent<ButtonScript>().ApplySprite(newButtonImages[buttonsList.IndexOf(buttonOrder[i])]);
             await Task.Delay(500);
             buttonOrder[i].GetComponent<ButtonScript>().ApplySprite(buttonImages[buttonsList.IndexOf(buttonOrder[i])]);
+
+            OrderSound.Play();
+            
         }
         EnableButtons();
     }
