@@ -1524,6 +1524,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InputActions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
+  Open_SFX: {fileID: 0}
+  Close_SFX: {fileID: 0}
 --- !u!1 &2827304700755563797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,7 +1992,6 @@ GameObject:
   - component: {fileID: 2827304701524370947}
   - component: {fileID: 2827304701524370959}
   - component: {fileID: 2827304701524370958}
-  - component: {fileID: 2827304701524370957}
   - component: {fileID: 2827304701524370956}
   m_Layer: 3
   m_Name: Main Camera
@@ -2247,19 +2248,6 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
---- !u!114 &2827304701524370957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2827304701524370949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
 --- !u!81 &2827304701524370956
 AudioListener:
   m_ObjectHideFlags: 0

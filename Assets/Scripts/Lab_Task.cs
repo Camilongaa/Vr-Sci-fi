@@ -10,6 +10,7 @@ public class Lab_Task : MonoBehaviour
     int NrIndex = 0;
     string alpha;
     public Text UiText = null;
+    public AudioSource Wrong;
 
     [SerializeField]
     public GameObject Door;
@@ -38,6 +39,8 @@ public class Lab_Task : MonoBehaviour
 
         else
         {
+            Wrong.Play();
+
             Debug.Log("Incorrect");
            
         }

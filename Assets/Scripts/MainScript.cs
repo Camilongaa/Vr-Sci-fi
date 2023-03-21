@@ -26,6 +26,8 @@ public class MainScript : MonoBehaviour
     public AudioSource Alarma;
 
     public AudioSource OrderSound;
+    public AudioSource Wrong;
+
 
     // Fin Del juego
 
@@ -140,11 +142,13 @@ public class MainScript : MonoBehaviour
         round = 1;
         buttonOrder.Clear();
         DisableButtons();
-        finalScreen.SetActive(true);
-        await Task.Delay(5000);
-        AddObject();
-        finalScreen.SetActive(false);
         
+        await Task.Delay(5000);
+        
+
+        Wrong.Play();
+
+
     }
 
     private async void ShowOrder()

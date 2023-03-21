@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 4c617c60cd26e1c43b1ca3341e399231
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body1
+    second: {fileID: 2100000, guid: c1ff9397da8252c4e965e6f8c459313c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LED
+    second: {fileID: 2100000, guid: dad34e9dd255960459623b2e81cea5fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silla_Bar
+    second: {fileID: 2100000, guid: edf08d5a7c061464caeaee8a85e874d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Basurero_SalaDescanso_ESC
+    second: {fileID: 2100000, guid: ab473575702f72543be5c517ab947211, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Cosas_SalaDescanso_ESC
+    second: {fileID: 2100000, guid: d060e3121981f8d459d16c95ed3a7bd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Maquina_Re_ESC
+    second: {fileID: 2100000, guid: 5a737d5ffc77a494c87328785dfa51fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Paredes_SalaDescanso_ESC
+    second: {fileID: 2100000, guid: 3a47772d8790bfb4890f9921ba712d27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 368d70b1839c8aa449eddacb7faa7124, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LockerV2_lambert2_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 4fe07395754892d4dafd003cd2c68254, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LockerV2_lambert2_Emission.1001
+    second: {fileID: 2800000, guid: a555909996d09a64480645308c616efa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LockerV2_lambert2_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: bcdccc2bf89acf3458f23f4c4849d27e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LockerV2_lambert2_Normal.1001
+    second: {fileID: 2800000, guid: b16438cdbca8f7f4caa43ea0941da0b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Maquina_RecargaLow_ESC_Tx_Maquina_Re_ESC_AlbedoTransparency
+    second: {fileID: 2800000, guid: 1a149958829d0864c85ba7a5c9f04755, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Maquina_RecargaLow_ESC_Tx_Maquina_Re_ESC_Emission
+    second: {fileID: 2800000, guid: d26f0970f1b46644297ad1e1470673d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Maquina_RecargaLow_ESC_Tx_Maquina_Re_ESC_MetallicSmoothness
+    second: {fileID: 2800000, guid: 8e7ff1dad468be344914617d9ba2aa4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Maquina_RecargaLow_ESC_Tx_Maquina_Re_ESC_Normal
+    second: {fileID: 2800000, guid: 961205c1a90ecd94d81f974701115c22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Descanso_ESC02UV_Tx_Paredes_SalaDescanso_ESC_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: b5797470e4b05b5459ef4269e525a022, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Descanso_ESC02UV_Tx_Paredes_SalaDescanso_ESC_Emission.1001
+    second: {fileID: 2800000, guid: 4bd05d5fd3a7fb140b97232bf6bc628b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Descanso_ESC02UV_Tx_Paredes_SalaDescanso_ESC_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 52c41633a51f2224eb830924c98d75ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sala_Descanso_ESC02UV_Tx_Paredes_SalaDescanso_ESC_Normal.1001
+    second: {fileID: 2800000, guid: a31e77fc7cc790543b174007298deac8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Silla_Bar_Silla_Bar_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: c9e1d6b9f379c704c9a9af8200b2b44a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Silla_Bar_Silla_Bar_Emission.1001
+    second: {fileID: 2800000, guid: 990116ad91a7dca48ac3d8af418603a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Silla_Bar_Silla_Bar_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 38db76259fb2aa540a0aaaa731d02580, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Silla_Bar_Silla_Bar_Normal.1001
+    second: {fileID: 2800000, guid: 7c27cce0e577a764b8c2438cb3768143, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a_Body1_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 37914545d3755744a996b17f81788b5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a_Body1_Emission.1001
+    second: {fileID: 2800000, guid: 602342e549ffaf141b6a9f843121b8f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a_Body1_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 505c43441ce652c4db9d748e9ba1319b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a_Body1_Normal.1001
+    second: {fileID: 2800000, guid: 4fedc50ae2c61ee488397095f2cf20d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a_LED_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 9a159bdc8d4633147a9397324be25c29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a_LED_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 11985c6a8ba377d419d5d2468024c3fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basurero_Tx_Basurero_ESC_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 3681fb567ea40a94a95f81f59101bbd7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basurero_Tx_Basurero_ESC_Emission.1001
+    second: {fileID: 2800000, guid: 9f796b4e52014b64bb0886ee6f3691eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basurero_Tx_Basurero_ESC_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: e920e36726e71124a83d34220582710f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: basurero_Tx_Basurero_ESC_Normal.1001
+    second: {fileID: 2800000, guid: 2550f418610b56b4f9a3e55b96d80340, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
