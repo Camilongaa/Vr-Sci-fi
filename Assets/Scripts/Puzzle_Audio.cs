@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Puzzle_Audio : MonoBehaviour
 {
-[Header("Interfaces")]
+    [Header("Interfaces")]
     public GameObject Firts_Level;
     public GameObject Second_Level;
     public GameObject third_Level;
@@ -13,6 +13,7 @@ public class Puzzle_Audio : MonoBehaviour
     public AudioSource Explicacion;
     public AudioSource Aullido;
     public AudioSource Cascada;
+    public AudioSource Audio3;
     public AudioSource Correct_Answer;
     public AudioSource Wrong_Answer;
 
@@ -41,14 +42,14 @@ public class Puzzle_Audio : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
-            {
+        {
             Targerposition = EnabledPosition.position;
             time = 0;
-           Explicacion.Play();
+            Explicacion.Play();
             StartCoroutine("answer1");
 
 
-            
+
 
         }
     }
@@ -74,7 +75,7 @@ public class Puzzle_Audio : MonoBehaviour
     private void Start()
     {
         Targerposition = DisabledPosition.position;
-        Firts_Level.SetActive(false); 
+        Firts_Level.SetActive(false);
         Second_Level.SetActive(false);
         third_Level.SetActive(false);
         TextoTarjeta.SetActive(false);
@@ -94,9 +95,9 @@ public class Puzzle_Audio : MonoBehaviour
 
 
     {
-       Correct_Answer.Play();
-       Firts_Level.SetActive(false);
-       Second_Level.SetActive(true);
+        Correct_Answer.Play();
+        Firts_Level.SetActive(false);
+        Second_Level.SetActive(true);
 
         StartCoroutine("Cascadatime");
 
@@ -112,6 +113,10 @@ public class Puzzle_Audio : MonoBehaviour
     {
         Second_Level.SetActive(false);
         third_Level.SetActive(true);
+
+        Audio3.Play();
+
+
 
 
     }
@@ -147,11 +152,16 @@ public class Puzzle_Audio : MonoBehaviour
     }
 
 
-    public  void Replay1()
+    public void Replay3()
+    {
+        Audio3.Play();
+    }
+
+    public void Replay1()
     {
         Aullido.Play();
-        
-        
+
+
     }
 
     public void Replay2()
@@ -159,5 +169,6 @@ public class Puzzle_Audio : MonoBehaviour
         Cascada.Play();
     }
 
+   
 
 }

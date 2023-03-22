@@ -31,8 +31,8 @@ public class PlayerHealt : MonoBehaviour
 
     void Death()
     {
-        //SceneManager.LoadScene(1);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(0);
+       // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
 
     }

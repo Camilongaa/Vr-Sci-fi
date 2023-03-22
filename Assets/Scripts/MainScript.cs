@@ -28,6 +28,9 @@ public class MainScript : MonoBehaviour
     public AudioSource OrderSound;
     public AudioSource Wrong;
 
+    public GameObject Tp;
+
+
 
     // Fin Del juego
 
@@ -42,6 +45,9 @@ public class MainScript : MonoBehaviour
         LuzRoja.gameObject.SetActive(true);
         LuzNormal.SetActive(false);
         Alarma.Play();
+        Tp.SetActive(true);
+
+
     }
     private void Update()
     {
