@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: d2374c61d2a4adc40b58bc1ee08f07ce
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caja_medica_base_V3
+    second: {fileID: 2100000, guid: 8111fdd8728570b4e9b8d3aac199d990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caja_medica_tapa_V3
+    second: {fileID: 2100000, guid: ac0a8696314a9614592645fafe452137, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caja_medica_vidrio
+    second: {fileID: 2100000, guid: 0975060776191014fa429dd36dc9f038, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frasco_A
+    second: {fileID: 2100000, guid: f944388442701724aacd6ae5b6f4dfbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frasco_B
+    second: {fileID: 2100000, guid: 5a34767bad5b84e42bd3a55004a3547c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frasco_C
+    second: {fileID: 2100000, guid: 85c01a0728b4e024ea172574701e4a31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frasco_D
+    second: {fileID: 2100000, guid: d3ce056c0a6c4f94e8813e2d7ee10090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frasco_E
+    second: {fileID: 2100000, guid: b20363b2c5a00c44f8bae63d9ae2ca3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sprit_A
+    second: {fileID: 2100000, guid: df8a72ffc764c1f4a84e19913e962e0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tapa_sprit_A
+    second: {fileID: 2100000, guid: 83dc27fdf561bb1488f6b6ae26fcf4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tx_Estestoscopio
+    second: {fileID: 2100000, guid: 3ea38dc07607cf64191e57af95086274, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lab_oxigeno
+    second: {fileID: 2100000, guid: 0a86b53eb0d61904f92decd3e7baf77a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 369b1ac7b7091f84ea9ac075956c93bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 3829bd023d26b7e48b64f8993c763419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 978a59f33b79b6a4ab094d4d2edfafb5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Caja medica cerrada V4.2_Caja_medica_base_V3_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 0b4a4c2f98f4bca4ab42da5ad3c95bac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Caja medica cerrada V4.2_Caja_medica_base_V3_Emission.1001
+    second: {fileID: 2800000, guid: 7eecf8b170c809e48a9b605259464f95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Caja medica cerrada V4.2_Caja_medica_base_V3_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: a05b59c10b01d694981824ec2de4a44f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Caja medica cerrada V4.2_Caja_medica_tapa_V3_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 08767d7720fdfef44b27d1ded1679783, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Caja medica cerrada V4.2_Caja_medica_tapa_V3_Emission.1001
+    second: {fileID: 2800000, guid: 37643658985eff346af5539906f9f5f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Caja medica cerrada V4.2_Caja_medica_tapa_V3_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 6a2dbfb8008ce964a870c3ad744c5fff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Caja medica cerrada V4.2_Caja_medica_vidrio_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 0e420774011c5124091c7f24bff75320, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Caja medica cerrada V4.2_Caja_medica_vidrio_Emission.1001
+    second: {fileID: 2800000, guid: c1a4f788d6816e342b98c10bf5d5469c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Caja medica cerrada V4.2_Caja_medica_vidrio_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 14f834f503df70c41a794d5fe240b7b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Estestoscopio_SM_02_Tx_Estestoscopio_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 8b2d3032b7c5f1b4dbd37f6f3a9d93b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Estestoscopio_SM_02_Tx_Estestoscopio_Emission.1001
+    second: {fileID: 2800000, guid: 7b9917f548671694ebb80810e9bb86a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Estestoscopio_SM_02_Tx_Estestoscopio_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 1b6fe55fc3907a74caf4b9063f525d2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic A_Frasco_A_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: f2edb9a6c5627e841a8663fdb865830f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic A_Frasco_A_Normal.1001
+    second: {fileID: 2800000, guid: cf6dca0615c653d4290f2770e754ed2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic A_Frasco_A_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 097527f259cfa504f850911252cfb78a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic B_Frasco_B_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 4fb7938b1b983a24dba92baa8fe1ca38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic B_Frasco_B_Normal.1001
+    second: {fileID: 2800000, guid: 040888aa4b4baaf4cb0b2cb8948f56ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic B_Frasco_B_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 47b61a783af9a94429345264a582d2dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic C_Frasco_C_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 7f758f7e8b759ed499076c8f2f868bcd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic C_Frasco_C_Normal.1001
+    second: {fileID: 2800000, guid: c02997c9def729042b1154fbc117b917, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic C_Frasco_C_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 41386042bf1be9442a84e9e95f2089f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic D_Frasco_D_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 1c53e0b91671e3f43be7f93599fef6d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic D_Frasco_D_Normal.1001
+    second: {fileID: 2800000, guid: 9e13cb8294ee2ea45b47d11a4531d219, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic D_Frasco_D_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 50bed3162bea645409540cca86d650f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic E_Frasco_E_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: d349920e4204d584bb8f4fe6b3a4bfdc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic E_Frasco_E_Emission.1001
+    second: {fileID: 2800000, guid: ab08abeb8cae1974296b3aa07f57eca7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic E_Frasco_E_Normal.1001
+    second: {fileID: 2800000, guid: a728a5f2e0dafc84295b87ff50fae183, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frasco medic E_Frasco_E_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 1f9d8f21cfaa67e44823552279ba394d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sprit medic A_Sprit_A_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 9ab33f6a24292b64dba75485354dc291, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sprit medic A_Sprit_A_SpecularSmoothness.1001
+    second: {fileID: 2800000, guid: 4b7f823886a78a344814b765094798a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: armario_uvs4_lambert1_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: d0348a89fa5bc3349913ea56a5a2a861, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: armario_uvs4_lambert1_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: 66c51bc6b93b9ee49ae59ab46771c343, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: armario_uvs4_lambert1_Normal.1001
+    second: {fileID: 2800000, guid: 33b411d20a92a274f914e7e4f07aa29a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: armario_uvs4_lambert2_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 3c7ba9ccff8226b48bfe33689399adea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: armario_uvs4_lambert2_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: f589f9bc0ab52e84397b2b91751136f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: armario_uvs4_lambert2_Normal.1001
+    second: {fileID: 2800000, guid: fea71133437926f4a893d4d4d2630116, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: armario_uvs4_lambert3_AlbedoTransparency.1001
+    second: {fileID: 2800000, guid: 6b81760bab3a25e41b2d438c0aad5bf2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: armario_uvs4_lambert3_MetallicSmoothness.1001
+    second: {fileID: 2800000, guid: cc5b8735bb036ee4c8e9b94637741e1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lab_oxigeno_lab_oxigeno_BaseMap.1001
+    second: {fileID: 2800000, guid: 30fe6acddf6568141ba70056225140d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lab_oxigeno_lab_oxigeno_Emissive.1001
+    second: {fileID: 2800000, guid: 0d0fea47ac712f64dac8fdd7f5d2ec46, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lab_oxigeno_lab_oxigeno_Normal.1001
+    second: {fileID: 2800000, guid: 3a2a70727be98ac468331c5ba8d88db2, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
