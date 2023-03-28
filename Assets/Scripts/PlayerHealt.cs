@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealt : MonoBehaviour
 {
-
+    public GameObject GameOverScreen;
+    public GameObject Teleports;
 
     private void OnEnable()
     {
@@ -31,9 +32,11 @@ public class PlayerHealt : MonoBehaviour
 
     void Death()
     {
-        SceneManager.LoadScene(0);
-       // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // SceneManager.LoadScene(0);
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
+        Teleports.gameObject.SetActive(false);
+        GameOverScreen.gameObject.SetActive(true);
 
     }
 }

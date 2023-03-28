@@ -5,13 +5,18 @@ using UnityEngine;
 public class GameFinalManager : MonoBehaviour
 {
 
-    private GameObject Nave;
+    [SerializeField] private GameObject Nave;
+    [SerializeField] private Animator Door;
+    [SerializeField]public Timer timer;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
 
-            Destroy(Nave);
+            Nave.SetActive(false);
+
+            Door.SetBool("Closed", true);
+            timer.pause();
         }
     }
 }
